@@ -1,0 +1,8 @@
+/bin
+/etc
+/lib
+/share
+*.cfg
+
+/microdados_Enade_2021
+
