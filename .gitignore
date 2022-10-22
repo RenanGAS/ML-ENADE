@@ -5,4 +5,5 @@
 *.cfg
 
 /microdados_Enade_2021
-
+*.txt
+*.csv
