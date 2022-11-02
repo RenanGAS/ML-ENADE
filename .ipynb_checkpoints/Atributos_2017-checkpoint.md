@@ -1,4 +1,4 @@
-29 atributos selecionados:
+29 atributos selecionados (**Mesmas correspondências que em 2021**):
 
 1 - <mark>NU_ANO</mark>: Ano de realização do exame;
 
@@ -41,11 +41,11 @@ Privada);
 
 19 - <mark>QE_I08</mark>: Renda familiar do participante;
 
-20 - <mark>QE_I06</mark>: Tipo de moradia;
+20 - <mark>QE_I06</mark>: Tipo de moradia (Com quem mora);
 
 21 - <mark>QE_I07</mark>: Quantidade de pessoas em sua moradia;
 
-22 - <mark>QE_I11</mark>: Política de ação afirmativa ou inclusão social utilizada para ingresso 
+22 - <mark>QE_I15</mark>: Política de ação afirmativa ou inclusão social utilizada para ingresso 
 no curso;
 
 23 - <mark>QE_I10</mark>: Situação de trabalho do participante;
@@ -56,9 +56,9 @@ no curso;
 
 26 - <mark>QE_I61</mark>: Opinião sobre as condições das salas de aulas;
 
-27 - <mark>QE_I63</mark>: Opinião sobre as condições das salas de aulas práticas;
+27 - <mark>QE_I62</mark>: Opinião sobre as condições das salas de aulas práticas;
 
-28 - <mark>QE_I28</mark>: Opinião sobre o plano de ensino do curso; ?
+28 - <mark>QE_I38</mark>: Opinião sobre o plano de ensino do curso; ?
 
 29 - <mark>QE_I27</mark>: Avaliação pessoal da contribuição do curso para a formação. ?
 
