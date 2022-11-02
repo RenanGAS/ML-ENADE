@@ -7,6 +7,11 @@
 /microdados_Enade_2021
 *.txt
 *.csv
-/dados_21
+/dados_2021
 /dados_21_csv
 /dados_21_Atributos
+
+/dados_2008
+/dados_2011
+/dados_2014
+/dados_2017
