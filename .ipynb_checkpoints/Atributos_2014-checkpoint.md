@@ -1,4 +1,4 @@
-29 atributos selecionados (**Mesmas correspondências que em 2021**):
+29 atributos selecionados:
 
 1 - <mark>NU_ANO</mark>: Ano de realização do exame;
 
@@ -14,13 +14,17 @@
 Centro Universitário, Centro Federal de Educação Tecnológica (CEFET) ou Instituto 
 Federal de Educação, Ciência e Tecnologia (IFECT));
 
-7 - <mark>CO_TURNO_GRADUACAO</mark>: Turno do curso;
-
+7 - <mark>CO_TURNO_GRADUACAO</mark> (**Em 2021 e 2017**): Turno do curso;
+* **Em 2014:**
+    * <mark>IN_MATUT</mark>: Turno Matutino;
+    * <mark>IN_VESPER</mark>: Turno Vespertino;
+    * <mark>IN_NOTURNO</mark>: Turno Noturno;
+    
 8 - <mark>NT_GER</mark>: Nota geral no exame;
 
-9 - <mark>ANO_FIM_EM</mark> (**1957 - 2017**): Ano de conclusão do Ensino Médio;
+9 - <mark>ANO_FIM_EM</mark> (**1955 - 2014**): Ano de conclusão do Ensino Médio;
 
-10 - <mark>ANO_IN_GRAD</mark> (**1976 - 2017**): Ano de início da graduação;
+10 - <mark>ANO_IN_GRAD</mark> (**1977 - 2014**): Ano de início da graduação;
 
 11 - <mark>QE_I17</mark>: Tipo de escola que o participante cursou o Ensino Médio (Pública ou 
 Privada);
@@ -31,7 +35,7 @@ Privada);
 
 14 - <mark>TP_SEXO</mark>: Sexo do participante;
 
-15 - <mark>QE_I02</mark>: Cor ou raça do participante;
+15 - <mark>QE_I02</mark> (**Uma opção a menos e ordem diferente**): Cor ou raça do participante;
 
 16 - <mark>QE_I01</mark>: Estado civil;
 
@@ -66,7 +70,7 @@ Variáveis derivadas das variáveis selecionadas:
 
 30 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
 
-31 - Idade do participante no início da graduação (**Atributo inválido**);
+31 - Idade do participante no início da graduação;
 
 32 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
 
