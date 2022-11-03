@@ -16,11 +16,11 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 
 7 - <mark>CO_TURNO_GRADUACAO</mark>: Turno do curso;
 
-8 - <mark>NT_GER</mark>: Nota geral no exame; ?
+8 - <mark>NT_GER</mark>: Nota geral no exame;
 
-9 - <mark>ANO_FIM_EM</mark>: Ano de conclusão do Ensino Médio;
+9 - <mark>ANO_FIM_EM</mark> (**1111 - 2200**): Ano de conclusão do Ensino Médio;
 
-10 - <mark>ANO_IN_GRAD</mark>: Ano de início da graduação;
+10 - <mark>ANO_IN_GRAD</mark> (**1 - 2081**): Ano de início da graduação;
 
 11 - <mark>QE_I17</mark>: Tipo de escola que o participante cursou o Ensino Médio (Pública ou 
 Privada);
@@ -58,15 +58,15 @@ no curso;
 
 27 - <mark>QE_I62</mark>: Opinião sobre as condições das salas de aulas práticas;
 
-28 - <mark>QE_I38</mark>: Opinião sobre o plano de ensino do curso; ?
+28 - <mark>QE_I38</mark>: Opinião sobre o plano de ensino do curso;
 
-29 - <mark>QE_I27</mark>: Avaliação pessoal da contribuição do curso para a formação. ?
+29 - <mark>QE_I27</mark>: Avaliação pessoal da contribuição do curso para a formação.
 
 Variáveis derivadas das variáveis selecionadas:
 
 30 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
 
-31 - Idade do participante no início da graduação;
+31 - Idade do participante no início da graduação (**Atributo inválido**);
 
 32 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
 
