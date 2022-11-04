@@ -2,7 +2,7 @@
 
 - <mark>72</mark> - Tecnologia em Análise e Desenvolvimento de Sistemas (ADS)
 - <mark>4004</mark> - Bacharelado em Ciência da Computação (BCC) 
-- <mark>5809</mark> - Bacharelado em Engenharia da Computação (EC)
+- <mark>5809</mark> (**Não presente em 2021**) - Bacharelado em Engenharia da Computação (EC)
 - <mark>?</mark> (**Presente em 2021 e 2017**) - Tecnologia em Gestão da Tecnologia da Informação (GTI)
     * <mark>76</mark> - Tecnologia em Gestão da Produção Industrial 
 - <mark>4005</mark> - Licenciatura em Ciência da Computação (LCC)
