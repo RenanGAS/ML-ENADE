@@ -16,7 +16,7 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 
 7 - <mark>CO_TURNO_GRADUACAO</mark>: Turno do curso;
 
-8 - <mark>NT_GER</mark>: Nota geral no exame;
+8 - <mark>NT_GER</mark> (**93.7**): Nota geral no exame;
 
 9 - <mark>ANO_FIM_EM</mark> (**1111 - 2200**): Ano de conclusão do Ensino Médio;
 

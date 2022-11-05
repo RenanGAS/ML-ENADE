@@ -20,7 +20,7 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
     * <mark>IN_VESPER</mark>: Turno Vespertino;
     * <mark>IN_NOTURNO</mark>: Turno Noturno;
     
-8 - <mark>NT_GER</mark>: Nota geral no exame;
+8 - <mark>NT_GER</mark> (**97.4**): Nota geral no exame;
 
 9 - <mark>ANO_FIM_EM</mark> (**1955 - 2014**): Ano de conclusão do Ensino Médio;
 
