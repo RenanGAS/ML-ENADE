@@ -68,16 +68,16 @@ Privada);
 * **Em 2008:** <mark>QE_I28</mark> (**Alternativas diferentes e a mais**).
 
 26 - <span style="background-color:red; color:white">QE_I61</span>: Opinião sobre as condições das salas de aulas;
-* **Em 2011:** <mark>QE_I48</mark> (**Alternativas diferentes**) .
+* **Em 2008:** <mark>QE_I48</mark> (**Alternativas diferentes**) .
 
 27 - <span style="background-color:red; color:white">QE_I62</span>: Opinião sobre as condições das salas de aulas práticas;
-* **Em 2011:** <mark>QE_I51</mark> (**Alternativas diferentes**) .
+* **Em 2008:** <mark>QE_I51</mark> (**Alternativas diferentes**) .
 
 28 - <span style="background-color:red; color:white">QE_I38</span>: Opinião sobre o plano de ensino do curso;
-* **Em 2011:** <mark>QE_I76</mark> (**Pergunta e alternativas diferentes**) (**?**) .
+* **Em 2008:** <mark>QE_I76</mark> (**Pergunta e alternativas diferentes**) (**?**) .
 
 29 - <span style="background-color:red; color:white">QE_I27</span>: Avaliação pessoal da contribuição do curso para a formação.
-* **Em 2011:** <mark>QE_I98</mark> (**Alternativas diferentes**) .
+* **Em 2008:** <mark>QE_I98</mark> (**Alternativas diferentes**) .
 
 Variáveis derivadas das variáveis selecionadas:
 
