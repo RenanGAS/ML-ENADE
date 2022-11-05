@@ -4,7 +4,7 @@
 - <mark>4004</mark> - Bacharelado em Ciência da Computação (BCC) 
 - <mark>5809</mark> (**Não presente em 2021**) - Bacharelado em Engenharia da Computação (EC)
 - <mark>?</mark> (**Como em 2014**) - Tecnologia em Gestão da Tecnologia da Informação (GTI)
-    * <mark>76</mark> - Tecnologia em Gestão da Produção Industrial
+    * <mark>76</mark> - Tecnologia em Gestão da Produção Industrial .
 - <mark>4005</mark> - Licenciatura em Ciência da Computação (LCC)
 - <mark>79</mark> - Tecnologia em Redes de Computadores (RC)
 - <mark>4006</mark> - Bacharelado em Sistemas de Informação (SI)
