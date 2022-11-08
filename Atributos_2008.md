@@ -36,11 +36,9 @@ Privada);
 
 14 - <mark>TP_SEXO</mark>: Sexo do participante;
 
-15 - <span style="background-color:red; color:white">QE_I02</span> (**Em 2011 e 2014**): Cor ou raça do participante;
-* **Em 2008:** <mark>QE_I05</mark> (**Alternativas a mais**) .
+15 - <mark>QE_I05</mark>: Cor ou raça do participante;
 
-16 - <span style="background-color:red; color:white">QE_I01</span>: Estado civil;
-* **Em 2008:** <mark>QE_I02</mark> (**Alternativas a mais**) .
+16 - <mark>QE_I02</mark>: Estado civil;
 
 17 - <span style="background-color:red; color:white">QE_I04</span> (**Em 2021, 2017 e 2014**): Nível de escolaridade do pai do participante;
 * **Em 2008 e 2011:** <mark>QE_I13</mark> (**Alternativas diferentes e a mais**).
@@ -51,7 +49,7 @@ Privada);
 19 - <span style="background-color:red; color:white">QE_I08</span>: Renda familiar do participante;
 * **Em 2008:** <mark>QE_I07</mark> (**Alternativas diferentes e a mais**).
 
-20 - <mark>QE_I06</mark>: Tipo de moradia (Com quem mora) (**Alternativas diferentes e a mais**);
+20 - <mark>QE_I06</mark>: Tipo de moradia (Com quem mora);
 
 21 - <span style="background-color:red; color:white">QE_I07</span>: Quantidade de pessoas em sua moradia;
 * **Em 2008:** <mark>QE_I08</mark> (**Alternativas diferentes e a mais**) .
