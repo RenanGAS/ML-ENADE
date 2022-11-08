@@ -36,11 +36,9 @@ Privada);
 
 14 - <mark>TP_SEXO</mark>: Sexo do participante;
 
-15 - <span style="background-color:red; color:white">QE_I02</span> (**Em 2011 e 2014**): Cor ou raça do participante;
-* **Em 2008:** <mark>QE_I05</mark> (**Alternativas a mais**) .
+15 - <mark>QE_I05</mark>: Cor ou raça do participante;
 
-16 - <span style="background-color:red; color:white">QE_I01</span>: Estado civil;
-* **Em 2008:** <mark>QE_I02</mark> (**Alternativas a mais**) .
+16 - <mark>QE_I02</mark>: Estado civil;
 
 17 - <span style="background-color:red; color:white">QE_I04</span> (**Em 2021, 2017 e 2014**): Nível de escolaridade do pai do participante;
 * **Em 2008 e 2011:** <mark>QE_I13</mark> (**Alternativas diferentes e a mais**).
@@ -51,7 +49,7 @@ Privada);
 19 - <span style="background-color:red; color:white">QE_I08</span>: Renda familiar do participante;
 * **Em 2008:** <mark>QE_I07</mark> (**Alternativas diferentes e a mais**).
 
-20 - <mark>QE_I06</mark>: Tipo de moradia (Com quem mora) (**Alternativas diferentes e a mais**);
+20 - <mark>QE_I06</mark>: Tipo de moradia (Com quem mora);
 
 21 - <span style="background-color:red; color:white">QE_I07</span>: Quantidade de pessoas em sua moradia;
 * **Em 2008:** <mark>QE_I08</mark> (**Alternativas diferentes e a mais**) .
@@ -68,16 +66,16 @@ Privada);
 * **Em 2008:** <mark>QE_I28</mark> (**Alternativas diferentes e a mais**).
 
 26 - <span style="background-color:red; color:white">QE_I61</span>: Opinião sobre as condições das salas de aulas;
-* **Em 2011:** <mark>QE_I48</mark> (**Alternativas diferentes**) .
+* **Em 2008:** <mark>QE_I48</mark> (**Alternativas diferentes**) .
 
 27 - <span style="background-color:red; color:white">QE_I62</span>: Opinião sobre as condições das salas de aulas práticas;
-* **Em 2011:** <mark>QE_I51</mark> (**Alternativas diferentes**) .
+* **Em 2008:** <mark>QE_I51</mark> (**Alternativas diferentes**) .
 
 28 - <span style="background-color:red; color:white">QE_I38</span>: Opinião sobre o plano de ensino do curso;
-* **Em 2011:** <mark>QE_I76</mark> (**Pergunta e alternativas diferentes**) (**?**) .
+* **Em 2008:** <mark>QE_I76</mark> (**Pergunta e alternativas diferentes**) (**?**) .
 
 29 - <span style="background-color:red; color:white">QE_I27</span>: Avaliação pessoal da contribuição do curso para a formação.
-* **Em 2011:** <mark>QE_I98</mark> (**Alternativas diferentes**) .
+* **Em 2008:** <mark>QE_I98</mark> (**Alternativas diferentes**) .
 
 Variáveis derivadas das variáveis selecionadas:
 

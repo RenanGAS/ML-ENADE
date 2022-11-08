@@ -35,7 +35,7 @@ Privada);
 
 14 - <mark>TP_SEXO</mark>: Sexo do participante;
 
-15 - <mark>QE_I02</mark> (**Opções como em 2014**): Cor ou raça do participante;
+15 - <mark>QE_I02</mark>: Cor ou raça do participante;
 
 16 - <mark>QE_I01</mark>: Estado civil;
 
