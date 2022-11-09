@@ -116,14 +116,12 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
     * 10026 = Instituto Federal de Educação, Ciência e Tecnologia
     * 10028 = Universidade
 
-
 * **2014**:
     * 10019 = Centro Federal de Educação Tecnológica
     * 10020 = Centro Universitário
     * 10022 = Faculdade 
     * 10026 = Instituto Federal de Educação, Ciência e Tecnologia
     * 10028 = Universidade
-
 
 * **2011**:
     * 10019 = Centro Federal de Educação Tecnológica
@@ -137,18 +135,16 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
     * 10020 = Centro Universitário
     * 10022 = Faculdade 
     * 10023 = Faculdade de Tecnologia
-    * 10027 = Instituto Superior ou Escola Superior
+    * 10027 = Instituto Superior ou Escola Superior (diferente de Instituto Federal)
     * 10028 = Universidade
-
 
 7 - <mark>CO_TURNO_GRADUACAO</mark>: Turno do curso;
 
 * **2021**:
     * 1 = Matutino
     * 2 = Vespertino
-    * 3 = Integral
+    * 3 = Integral (IN_MATUT: 1, IN_VESPER: 1)
     * 4 = Noturno
-
 
 * **2017**:
     * 1 = Matutino
@@ -156,24 +152,20 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
     * 3 = Integral
     * 4 = Noturno
 
-
 * **2014**:
     * IN_MATUT
     * IN_VESPER
     * IN_NOTURNO
-
 
 * **2011**:
     * IN_MATUT
     * IN_VESPER
     * IN_NOTURNO
 
-
 * **2008**:
     * IN_MATUT
     * IN_VESPER
     * IN_NOTURNO
-
 
 8 - <mark>NT_GER</mark>: Nota geral no exame (Max);
 
@@ -254,7 +246,6 @@ Privada);
     * \* = Resposta anulada
     * . = Sem resposta
 
-
 12 - <mark>Modalidade de Ensino Médio</mark>;
 
 * **2021**:
@@ -293,7 +284,6 @@ Privada);
     * E = Outro
     * \* = Resposta anulada
     * . = Sem resposta
-
 
 13 - <mark>NU_IDADE</mark>: Idade do participante na data de realização do exame;
 
@@ -496,7 +486,6 @@ Privada);
     * F = De 10 a 30 salários mínimos (11.000,01 a 33.000,00).
     * G = Acima de 30 salários mínimos (mais de 33.000,00).
 
-
 * **2017**:
     * A = Até 1,5 salário mínimo (até 1.405,50).
     * B = De 1,5 a 3 salários mínimos (1.405,51 a 2.811,00).
@@ -505,7 +494,6 @@ Privada);
     * E = De 6 a 10 salários mínimos (5. 622,01 a 9.370,00).
     * F = De 10 a 30 salários mínimos (9.370,01 a 28.110,00).
     * G = Acima de 30 salários mínimos (mais de 28.110,00).
-
 
 * **2014**:
     * A = Até 1,5 salário mínimo (até  1.086,00).
@@ -516,7 +504,6 @@ Privada);
     * F = De 10 a 30 salários mínimos (7.240,01 a 21.720,00).
     * G = Acima de 30 salários mínimos (mais de 21.720,00).
 
-
 * **2011**:
     * A = Nenhuma
     * B = Até 1,5 salário mínimo (até  817,50).
@@ -526,7 +513,6 @@ Privada);
     * F = De 6 a 10 salários mínimos (3.270,01 a 5.450,00).
     * G = De 10 a 30 salários mínimos (5.450,01 a 16.350,00).
     * H = Acima de 30 salários mínimos (mais de 16.350,01).
-
 
 * **2008**:
     * A = Até 3 salários mínimos (até 1.245,00)
@@ -634,105 +620,367 @@ Privada);
 22 - <mark>Política de ação afirmativa ou inclusão social utilizada para ingresso no curso</mark>;
 
 * **2021**:
+    * A = Não.
+    * B = Sim, por critério étnico-racial.
+    * C = Sim, por critério de renda.
+    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
+    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
+    * F = Sim, por sistema diferente dos anteriores.
 
 * **2017**:
+    * A = Não.
+    * B = Sim, por critério étnico-racial.
+    * C = Sim, por critério de renda.
+    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
+    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
+    * F = Sim, por sistema diferente dos anteriores.
 
 * **2014**:
+    * A = Não.
+    * B = Sim, por critério étnico-racial.
+    * C = Sim, por critério de renda.
+    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
+    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
+    * F = Sim, por sistema diferente dos anteriores.
 
 * **2011**:
+    * A = Não.
+    * B = Sim, por critério étnico-racial (negros, pardos e indígenas).
+    * C = Sim, por critério de renda.
+    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
+    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
+    * F = Sim, por sistema diferente dos anteriores.
 
 * **2008**:
+    * A = Sim, por meio de sistema de reserva de vagas com identificação étnico-racial (negros, pardos e indígenas)
+    * B = Sim, por meio de sistema de reserva de vagas com recorte social (egresso de escola pública, renda, etc.)
+    * C = Sim, por sistema distinto dos anteriores
+    * D = Não
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 23 - <mark>Situação de trabalho do participante</mark>;
 
 * **2021**:
+    * A = Não estou trabalhando.
+    * B = Trabalho eventualmente.
+    * C = Trabalho até 20 horas semanais.
+    * D = Trabalho de 21 a 39 horas semanais.
+    * E = Trabalho 40 horas semanais ou mais.
 
 * **2017**:
+    * A = Não estou trabalhando.
+    * B = Trabalho eventualmente.
+    * C = Trabalho até 20 horas semanais.
+    * D = Trabalho de 21 a 39 horas semanais.
+    * E = Trabalho 40 horas semanais ou mais.
 
 * **2014**:
+    * A = Não estou trabalhando.
+    * B = Trabalho eventualmente.
+    * C = Trabalho até 20 horas semanais.
+    * D = Trabalho de 21 a 39 horas semanais.
+    * E = Trabalho 40 horas semanais ou mais.
 
 * **2011**:
+    * A = Não estou trabalhando.
+    * B = Trabalho eventualmente.
+    * C = Trabalho até 20 horas semanais.
+    * D = Trabalho mais de  20 horas semanais e menos de 40 horas semanais.
+    * E = Trabalho em tempo integral - 40 horas semanais ou mais.
 
 * **2008**:
+    * A = Não trabalho / nunca exerci atividade remunerada
+    * B = Trabalho / trabalhei eventualmente
+    * C = Trabalho / trabalhei até 20 horas semanais
+    * D = Trabalho / trabalhei mais de 20 horas semanais e menos de 40 horas semanais
+    * E = Trabalho / trabalhei em tempo integral - 40 horas semanais ou mais
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 24 - <mark>Quantidade de livros lidos no ano de realização do exame</mark>;
 
 * **2021**:
+    * A = Nenhum.
+    * B = Um ou dois.
+    * C = De três a cinco.
+    * D = De seis a oito.
+    * E = Mais de oito.
 
 * **2017**:
+    * A = Nenhum.
+    * B = Um ou dois.
+    * C = De três a cinco.
+    * D = De seis a oito.
+    * E = Mais de oito.
 
 * **2014**:
+    * A = Nenhum.
+    * B = Um ou dois.
+    * C = De três a cinco.
+    * D = De seis a oito.
+    * E = Mais de oito.
 
 * **2011**:
+    * A = Nenhum.
+    * B = Um ou dois.
+    * C = De três a cinco.
+    * D = De seis a oito.
+    * E = Mais de oito.
 
 * **2008**:
+    * A = Nenhum (Neste caso, passe para a questão 23)
+    * B = No máximo dois
+    * C = Entre três e cinco
+    * D = Entre seis e oito
+    * E = Mais de oito
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 25 - <mark>Horas dedicadas à estudos, além das horas de aula</mark>;
 
 * **2021**:
+    * A = Nenhuma, apenas assisto às aulas.
+    * B = De uma a três.
+    * C = De quatro a sete.
+    * D = De oito a doze.
+    * E = Mais de doze.
 
 * **2017**:
+    * A = Nenhuma, apenas assisto às aulas.
+    * B = De uma a três.
+    * C = De quatro a sete.
+    * D = De oito a doze.
+    * E = Mais de doze.
 
 * **2014**:
+    * A = Nenhuma, apenas assisto às aulas.
+    * B = De uma a três.
+    * C = De quatro a sete.
+    * D = De oito a doze.
+    * E = Mais de doze.
 
 * **2011**:
+    * A = Nenhuma, apenas assisto às aulas.
+    * B = De uma a três.
+    * C = De quatro a sete.
+    * D = De oito a doze.
+    * E = Mais de doze.
 
 * **2008**:
+    * A = Nenhuma, apenas assisto às aulas
+    * B = Uma a duas
+    * C = Três a cinco
+    * D = Seis a oito
+    * E = Mais de oito
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 26 - <mark>Opinião sobre as condições das salas de aulas</mark>;
 
 * **2021**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2017**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2014**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2011**:
+    * A = Sim, todas.
+    * B = Sim, a maior parte.
+    * C = Somente algumas.
+    * D = Nenhuma.
 
 * **2008**:
+    * A = Amplas, arejadas, bem iluminadas e com mobiliário adequado
+    * B = Arejadas, bem iluminadas e com mobiliário satisfatório, embora pequenas em relação ao número de estudantes
+    * C = Bem iluminadas e com mobiliário satisfatório, embora sejam mal ventiladas e pequenas em relação ao número de estudantes
+    * D = Mal ventiladas, mal iluminadas, pequenas em relação ao número de estudantes e com mobiliário razoavelmente satisfatório
+    * E = Mal arejadas, mal iluminadas, com mobiliário inadequado e pequenas em relação ao número de estudantes
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 27 - <mark>Opinião sobre as condições das salas de aulas práticas</mark>;
 
 * **2021**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2017**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2014**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2011**:
+    * A = Sim, todos.
+    * B = Sim, a maior parte.
+    * C = Somente alguns.
+    * D = Nenhuma.
 
 * **2008**:
+    * A = Sim, em todas elas
+    * B = Sim, na maior parte delas
+    * C = Sim, mas apenas na metade delas
+    * D = Sim, mas em menos da metade delas
+    * E = Não, em nenhuma
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 28 - <mark>Opinião sobre o plano de ensino do curso</mark>;
 
 * **2021**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2017**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2014**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
-* **2011**:
+* **2011** (34/52):
+    * A = Contribui amplamente. 
+    * B = Contribui parcialmente. 
+    * C = Contribui muito pouco. 
+    * D = Não contribui.
 
-* **2008**:
+* **2008** (74/76):
+    * A = São altamente relevantes
+    * B = São relevantes
+    * C = São medianamente relevantes
+    * D = São de pouca relevância
+    * E = Não são relevantes
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 29 - <mark>Avaliação pessoal da contribuição do curso para a formação</mark>;
 
 * **2021**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2017**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2014**:
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
 
 * **2011**:
+    * A = Muito boa. 
+    * B = Boa. 
+    * C = Regular. 
+    * D = Fraca. 
+    * E = Muito fraca.
 
 * **2008**:
+    * A = Muito boa
+    * B = Boa
+    * C = Regular
+    * D = Fraca
+    * E = Muito fraca
+    * \* = Resposta anulada
+    * . = Sem resposta
 
 Variáveis derivadas das variáveis selecionadas:
 
 30 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
+* Exemplo:
+    * A = Não. -> Não
+    * B = Sim, por critério étnico-racial. -> Sim
+    * C = Sim, por critério de renda. -> Sim
+    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos. -> Sim
+    * E = Sim, por sistema que combina dois ou mais critérios anteriores. -> Sim
+    * F = Sim, por sistema diferente dos anteriores. -> Sim
 
 31 - Idade do participante no início da graduação (**Atributo inválido**);
+* NU_IDADE e ANO_IN_GRAD em arquivos diferentes
 
 32 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
+* ANO_FIM_EM - ANO_IN_GRAD
 
 33 - Quantidade de anos que o participante está na graduação.
+* NU_ANO - ANO_IN_GRAD
