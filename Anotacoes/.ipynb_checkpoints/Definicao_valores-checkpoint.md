@@ -52,7 +52,7 @@
     * 3. Pública Municipal
     * 4. Privada CFL
     * 5. Privada SFL
-    * 6. Especial
+    * 6. Especial (valor ausente)
 
 * **2017**:
     * 1. Pública Federal
@@ -84,39 +84,31 @@ Centro Universitário, Centro Federal de Educação Tecnológica (CEFET) ou Inst
 Federal de Educação, Ciência e Tecnologia (IFECT));
 
 * **2021**:
-    * 10019 = Centro Federal de Educação Tecnológica
+    * 10019 = CEFET
     * 10020 = Centro Universitário
     * 10022 = Faculdade 
-    * 10026 = Instituto Federal de Educação, Ciência e Tecnologia
+    * 10026 = IFECT
     * 10028 = Universidade
 
 * **2017**:
-    * 10019 = Centro Federal de Educação Tecnológica
+    * 10019 = CEFET
     * 10020 = Centro Universitário
     * 10022 = Faculdade 
-    * 10026 = Instituto Federal de Educação, Ciência e Tecnologia
+    * 10026 = IFECT
     * 10028 = Universidade
 
 * **2014**:
-    * 10019 = Centro Federal de Educação Tecnológica
+    * 10019 = CEFET
     * 10020 = Centro Universitário
     * 10022 = Faculdade 
-    * 10026 = Instituto Federal de Educação, Ciência e Tecnologia
+    * 10026 = IFECT
     * 10028 = Universidade
 
 * **2011**:
-    * 10019 = Centro Federal de Educação Tecnológica
+    * 10019 = CEFET
     * 10020 = Centro Universitário
     * 10022 = Faculdade 
-    * 10026 = Instituto Federal de Educação, Ciência e Tecnologia
-    * 10028 = Universidade
-
-* **2008**:
-    * 10019 = Centro Federal de Educação Tecnológica
-    * 10020 = Centro Universitário
-    * 10022 = Faculdade 
-    * 10023 = Faculdade de Tecnologia
-    * 10027 = Instituto Superior ou Escola Superior (diferente de Instituto Federal)
+    * 10026 = IFECT
     * 10028 = Universidade
 
 7 - <mark>CO_TURNO_GRADUACAO</mark>: Turno do curso;
@@ -124,7 +116,7 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 * **2021**:
     * 1 = Matutino
     * 2 = Vespertino
-    * 3 = Integral (IN_MATUT: 1, IN_VESPER: 1)
+    * 3 = Integral (IN_MATUT: 1 && IN_VESPER: 1 || IN_VESPER && IN_NOTURNO)
     * 4 = Noturno
 
 * **2017**:
@@ -143,11 +135,6 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
     * IN_VESPER
     * IN_NOTURNO
 
-* **2008**:
-    * IN_MATUT
-    * IN_VESPER
-    * IN_NOTURNO
-
 8 - <mark>NT_GER</mark>: Nota geral no exame (Max);
 
 * **2021**: 93.7
@@ -158,8 +145,6 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 
 * **2011**: 93.2
 
-* **2008**: 95
-
 9 - <mark>ANO_FIM_EM</mark>: Ano de conclusão do Ensino Médio;
 
 * **2021**: 1111 - 2200
@@ -169,8 +154,6 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 * **2014**: 1955 - 2014
 
 * **2011**: 1951 - 2011
-
-* **2008**: 1945 - 2008
 
 10 - <mark>ANO_IN_GRAD</mark>: Ano de início da graduação;
 
