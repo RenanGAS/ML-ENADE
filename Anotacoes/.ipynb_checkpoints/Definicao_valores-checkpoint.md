@@ -171,83 +171,65 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 Privada);
 
 * **2021**:
-    * A = Todo em escola pública.
-    * B = Todo em escola privada (particular).
-    * C = Todo no exterior.
-    * D = A maior parte em escola pública.
-    * E = A maior parte em escola privada (particular).
-    * F = Parte no Brasil e parte no exterior.
+    * A = Pública.
+    * B = Privada.
+    * C = Exterior.
+    * D = Maior parte pública.
+    * E = Maior parte Privada.
+    * F = Brasil e exterior.
 
 * **2017**:
-    * A = Todo em escola pública.
-    * B = Todo em escola privada (particular).
-    * C = Todo no exterior.
-    * D = A maior parte em escola pública.
-    * E = A maior parte em escola privada (particular).
-    * F = Parte no Brasil e parte no exterior.
+    * A = Pública.
+    * B = Privada.
+    * C = Exterior.
+    * D = Maior parte pública.
+    * E = Maior parte Privada.
+    * F = Brasil e exterior.
 
 * **2014**:
-    * A = Todo em escola pública.
-    * B = Todo em escola privada (particular).
-    * C = Todo no exterior.
-    * D = A maior parte em escola pública.
-    * E = A maior parte em escola privada (particular).
-    * F = Parte no Brasil e parte no exterior.
+    * A = Pública.
+    * B = Privada.
+    * C = Exterior.
+    * D = Maior parte pública.
+    * E = Maior parte Privada.
+    * F = Brasil e exterior.
 
 * **2011**:
-    * A = Todo em escola pública.
-    * B = Todo em escola privada (particular).
-    * C = A maior parte em escola pública.
-    * D = A maior parte em escola privada (particular).
-    * E = Metade em escola pública e metade em escola privada (particular).
-
-* **2008**:
-    * A = Todo em escola pública
-    * B = Todo em escola privada (particular)
-    * C = A maior parte em escola pública
-    * D = A maior parte em escola privada (particular)
-    * E = Metade em escola pública e metade em escola privada (particular)
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Pública.
+    * B = Privada.
+    * C = Maior parte pública.
+    * D = Maior parte Privada.
+    * E = Metade em escola pública e metade em escola privada (particular). (Excluído)
 
 12 - <mark>Modalidade de Ensino Médio</mark>;
 
 * **2021**:
-    * A = Ensino médio tradicional.
-    * B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).
-    * C = Profissionalizante magistério (Curso Normal).
-    * D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.
-    * E = Outra modalidade.
+    * A = Tradicional.
+    * B = Técnico.
+    * C = Magistério.
+    * D = Supletivo.
+    * E = Outra.
 
 * **2017**:
-    * A = Ensino médio tradicional.
-    * B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).
-    * C = Profissionalizante magistério (Curso Normal).
-    * D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.
-    * E = Outra modalidade.
+    * A = Tradicional.
+    * B = Técnico.
+    * C = Magistério.
+    * D = Supletivo.
+    * E = Outra.
 
 * **2014**:
-    * A = Ensino médio tradicional.
-    * B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).
-    * C = Profissionalizante magistério (Curso Normal).
-    * D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.
-    * E = Outra modalidade.
+    * A = Tradicional.
+    * B = Técnico.
+    * C = Magistério.
+    * D = Supletivo.
+    * E = Outra.
 
 * **2011**:
-    * A = Ensino médio tradicional.
-    * B = Profissionalizante técnico (eletrônica, contabilidade, agrícola, outro).
-    * C = Profissionalizante magistério (Curso Normal).
-    * D = Educação de Jovens e Adultos (EJA) e/ou Supletivo.
-    * E = Outro.
-
-* **2008**:
-    * A = Comum ou de educação geral, no ensino regular
-    * B = Profissionalizante técnico (eletrônica, contabilidade, agrícola etc), no ensino regular
-    * C = Profissionalizante magistério de 1ª a 4ª série (Curso Normal), no ensino regular
-    * D = Supletivo
-    * E = Outro
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Tradicional.
+    * B = Técnico.
+    * C = Magistério.
+    * D = Supletivo.
+    * E = Outra.
 
 13 - <mark>NU_IDADE</mark>: Idade do participante na data de realização do exame;
 
@@ -275,13 +257,15 @@ Privada);
 
 15 - <mark>Cor ou raça do participante</mark>;
 
+* **OBS**: Ordem não importa. O que importa é as escalas e o conteúdo dos valores estarem condizentes.
+
 * **2021**:
     * A = Branca.
     * B = Preta.
     * C = Amarela.
     * D = Parda.
     * E = Indígena.
-    * F = Não quero declarar.
+    * F = Não declarado.
 
 * **2017**:
     * A = Branca.
@@ -289,30 +273,23 @@ Privada);
     * C = Amarela.
     * D = Parda.
     * E = Indígena.
-    * F = Não quero declarar.
+    * F = Não declarado.
 
 * **2014**:
-    * A = Branco(a).
-    * B = Negro(a).
-    * C = Pardo(a)/mulato(a).
-    * D = Amarelo(a) (de origem oriental).
-    * E = Indígena ou de origem indígena.
+    * A = Branco(a). -> Branca
+    * B = Negro(a). -> Preta
+    * C = Pardo(a)/mulato(a). -> Parda
+    * D = Amarelo(a) (de origem oriental). -> Amarela
+    * E = Indígena ou de origem indígena. -> Indígena
+    * Nan -> F = Não declarado
 
 * **2011**:
-    * A = Branco(a).
-    * B = Negro(a).
-    * C = Pardo(a).
-    * D = Amarelo(a) (de origem oriental).
-    * E = Indígena ou de origem indígena.
-
-* **2008**:
-    * A = Branco(a).
-    * B = Negro(a).
-    * C = Pardo(a)/mulato(a).
-    * D = Amarelo(a) (de origem oriental).
-    * E = Indígena ou de origem indígena.
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Branco(a). -> Branca
+    * B = Negro(a). -> Preta
+    * C = Pardo(a)/mulato(a). -> Parda
+    * D = Amarelo(a) (de origem oriental). -> Amarela
+    * E = Indígena ou de origem indígena. -> Indígena
+    * Nan -> F = Não declarado
 
 16 - <mark>Estado civil</mark>;
 
@@ -928,10 +905,18 @@ Privada);
     * E = Muito fraca
     * \* = Resposta anulada
     * . = Sem resposta
+    
+30 - <mark>Situação Financeira</mark> (QE_I09 (2021), QE_I06 (2011));
+
+31 - <mark>Tipo de bolsa/Financiamento</mark> (QE_I11 (2021), QE_I10 (2011));
+
+32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011));
+
+33 - Parei em QE_I27 em 2021;
 
 Variáveis derivadas das variáveis selecionadas:
 
-30 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
+1 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
 * Exemplo:
     * A = Não. -> Não
     * B = Sim, por critério étnico-racial. -> Sim
@@ -939,12 +924,13 @@ Variáveis derivadas das variáveis selecionadas:
     * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos. -> Sim
     * E = Sim, por sistema que combina dois ou mais critérios anteriores. -> Sim
     * F = Sim, por sistema diferente dos anteriores. -> Sim
-
-31 - Idade do participante no início da graduação (**Atributo inválido**);
-* NU_IDADE e ANO_IN_GRAD em arquivos diferentes
-
-32 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
+    
+2 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
 * ANO_FIM_EM - ANO_IN_GRAD
 
-33 - Quantidade de anos que o participante está na graduação.
+3 - Quantidade de anos que o participante está na graduação.
 * NU_ANO - ANO_IN_GRAD
+
+-1 - Idade do participante no início da graduação (**Atributo inválido**);
+* NU_IDADE e ANO_IN_GRAD em arquivos diferentes
+
