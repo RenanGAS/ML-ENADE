@@ -1,3 +1,10 @@
+* **Considerações**: 
+    * Para tratar dados incompletos (ausência de valores): 
+        * 1 - Utilizar algum método ou heurística para automaticamente definir valores para atributos com valores ausentes;
+        * 2 - Utilizar média/moda/mediana no caso de valores simbólicos, utilizando todos objetos ou apenas os da classe em questão.
+    * Verificar se não há atributos redundantes, ou seja, que possuem valores muito semelhantes.
+    
+
 29 atributos selecionados:
 
 1 - <mark>NU_ANO</mark>: Ano de realização do exame;
@@ -296,39 +303,30 @@ Privada);
 * **2021**:
     * A = Solteiro(a).
     * B = Casado(a).
-    * C = Separado(a) judicialmente/divorciado(a).
+    * C = Separado(a) judicialmente/divorciado(a). -> Separado
     * D = Viúvo(a).
     * E = Outro.
 
 * **2017**:
     * A = Solteiro(a).
     * B = Casado(a).
-    * C = Separado(a) judicialmente/divorciado(a).
+    * C = Separado(a) judicialmente/divorciado(a). -> Separado
     * D = Viúvo(a).
     * E = Outro.
 
 * **2014**:
     * A = Solteiro(a).
     * B = Casado(a).
-    * C = Separado(a) judicialmente/divorciado(a).
+    * C = Separado(a) judicialmente/divorciado(a). -> Separado
     * D = Viúvo(a).
     * E = Outro.
 
 * **2011**:
     * A = Solteiro(a).
     * B = Casado(a).
-    * C = Separado(a)/desquitado(a)/divorciado(a).
+    * C = Separado(a)/desquitado(a)/divorciado(a). -> Separado
     * D = Viúvo(a).
     * E = Outro.
-
-* **2008**:
-    * A = Solteiro(a).
-    * B = Casado(a).
-    * C = Separado(a)/desquitado(a)/divorciado(a).
-    * D = Viúvo(a).
-    * E = Outro.
-    * \* = Resposta anulada
-    * . = Sem resposta
 
 17 - <mark>Nível de escolaridade do pai do participante</mark>;
 
@@ -364,15 +362,6 @@ Privada);
     * E = Ensino Superior.
     * F = Pós-graduação.
 
-* **2008**:
-    * A = Nenhuma escolaridade
-    * B = Ensino fundamental: de 1ª a 4ª série
-    * C = Ensino fundamental: de 5ª a 8ª série
-    * D = Ensino médio
-    * E = Ensino superior
-    * \* = Resposta anulada
-    * . = Sem resposta
-
 18 - <mark>Nível de escolaridade da mãe do participante</mark>;
 
 * **2021**:
@@ -407,16 +396,9 @@ Privada);
     * E = Ensino Superior.
     * F = Pós-graduação.
 
-* **2008**:
-    * A = Nenhuma escolaridade
-    * B = Ensino fundamental: de 1ª a 4ª série
-    * C = Ensino fundamental: de 5ª a 8ª série
-    * D = Ensino médio
-    * E = Ensino superior
-    * \* = Resposta anulada
-    * . = Sem resposta
-
 19 - <mark>Renda familiar do participante</mark>;
+
+* **OBS**: Não levar em conta os valores em reais e sim em salários mínimo, considerando que não podemos comparar rendas de anos diferentes pela economia geral de cada ano ser diferente.
 
 * **2021**:
     * A = Até 1,5 salário mínimo (até 1.650,00).
@@ -455,15 +437,6 @@ Privada);
     * G = De 10 a 30 salários mínimos (5.450,01 a 16.350,00).
     * H = Acima de 30 salários mínimos (mais de 16.350,01).
 
-* **2008**:
-    * A = Até 3 salários mínimos (até 1.245,00)
-    * B = Mais de 3 até 10 salários mínimos (1.245,00 até 4.150,00)
-    * C = Mais de 10 até 20 salários mínimos (4.151,00 até 8.300,00)
-    * D = Mais de 20 até 30 salários mínimos (8.301,00 até 12.450,00)
-    * E = Mais de 30 salários mínimos (mais de 12.450,00)
-    * \* = Resposta anulada
-    * . = Sem resposta
-
 20 - <mark>Tipo de moradia</mark> (Com quem mora);
 
 * **2021**:
@@ -497,15 +470,6 @@ Privada);
     * D = Em casa ou apartamento, com outras pessoas (incluindo república).
     * E = Em alojamento universitário da própria instituição de ensino.
     * F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro).
-
-* **2008**:
-    * A = Com os pais e(ou) com outros parentes
-    * B = Com o(a) esposo(a) e(ou) com o(s) filho(s)
-    * C = Com amigos (compartilhando despesas ou de favor)
-    * D = Com colegas, em alojamento universitário
-    * E = Sozinho(a)
-    * \* = Resposta anulada
-    * . = Sem resposta
 
 21 - <mark>Quantidade de pessoas em sua moradia</mark>;
 
@@ -548,15 +512,6 @@ Privada);
     * F = Cinco.
     * G = Seis.
     * H = Mais de seis.
-
-* **2008**:
-    * A = Nenhum
-    * B = Um ou dois
-    * C = Três ou quatro
-    * D = Cinco ou seis
-    * E = Mais de seis
-    * \* = Resposta anulada
-    * . = Sem resposta
 
 22 - <mark>Política de ação afirmativa ou inclusão social utilizada para ingresso no curso</mark>;
 
@@ -912,7 +867,13 @@ Privada);
 
 32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011));
 
-33 - Parei em QE_I27 em 2021;
+33 - <mark>O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional</mark> (QE_I31 (2021), QE_I53 (2011));
+
+34 - <mark>O curso exigiu de você organização e dedicação frequente aos estudos</mark> (QE_I42 (2021), QE_I50 (2011));
+
+35 - <mark></mark>;
+
+40 - <mark>A instituição promoveu atividades de cultura, de lazer e de interação social</mark> (QE_I67 (2021), QE_I51 (2011));
 
 Variáveis derivadas das variáveis selecionadas:
 
