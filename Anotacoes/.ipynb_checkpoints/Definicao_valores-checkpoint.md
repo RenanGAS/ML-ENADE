@@ -332,68 +332,69 @@ Privada);
 
 * **2021**:
     * A = Nenhuma.
-    * B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
-    * C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
-    * D = Ensino Médio.
-    * E = Ensino Superior - Graduação.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
+
 
 * **2017**:
     * A = Nenhuma.
-    * B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
-    * C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
-    * D = Ensino Médio.
-    * E = Ensino Superior - Graduação.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 * **2014**:
     * A = Nenhuma.
-    * B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
-    * C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
-    * D = Ensino Médio.
-    * E = Ensino Superior - Graduação.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 * **2011**:
-    * A = Nenhuma escolaridade.
-    * B = Ensino fundamental: 1º ao 5º ano (antiga 1ª a 4ª série).
-    * C = Ensino fundamental: 6º ao 9º ano (antiga 5ª a 8ª série).
-    * D = Ensino médio.
-    * E = Ensino Superior.
+    * A = Nenhuma.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 18 - <mark>Nível de escolaridade da mãe do participante</mark>;
 
 * **2021**:
     * A = Nenhuma.
-    * B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
-    * C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
-    * D = Ensino Médio.
-    * E = Ensino Superior - Graduação.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 * **2017**:
     * A = Nenhuma.
-    * B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
-    * C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
-    * D = Ensino Médio.
-    * E = Ensino Superior - Graduação.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 * **2014**:
     * A = Nenhuma.
-    * B = Ensino Fundamental: 1º ao 5º ano (1ª a 4ª série).
-    * C = Ensino Fundamental: 6º ao 9º ano (5ª a 8ª série).
-    * D = Ensino Médio.
-    * E = Ensino Superior - Graduação.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 * **2011**:
-    * A = Nenhuma escolaridade.
-    * B = Ensino fundamental: 1º ao 5º ano (antiga 1ª a 4ª série).
-    * C = Ensino fundamental: 6º ao 9º ano (antiga 5ª a 8ª série).
-    * D = Ensino médio.
-    * E = Ensino Superior.
+    * A = Nenhuma.
+    * B = Fundamental 1-5.
+    * C = Fundamental 6-9.
+    * D = Médio.
+    * E = Superior.
     * F = Pós-graduação.
 
 19 - <mark>Renda familiar do participante</mark>;
@@ -440,36 +441,36 @@ Privada);
 20 - <mark>Tipo de moradia</mark> (Com quem mora);
 
 * **2021**:
-    * A = Em casa ou apartamento, sozinho.
-    * B = Em casa ou apartamento, com pais e/ou parentes.
-    * C = Em casa ou apartamento, com cônjuge e/ou filhos.
-    * D = Em casa ou apartamento, com outras pessoas (incluindo república).
-    * E = Em alojamento universitário da própria instituição.
-    * F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro).
+    * A = Sozinho.
+    * B = Parentes.
+    * C = Cônjuge/Filhos.
+    * D = Outras pessoas.
+    * E = Universidade.
+    * F = Habitação individual/coletiva.
 
 * **2017**:
-    * A = Em casa ou apartamento, sozinho.
-    * B = Em casa ou apartamento, com pais e/ou parentes.
-    * C = Em casa ou apartamento, com cônjuge e/ou filhos.
-    * D = Em casa ou apartamento, com outras pessoas (incluindo república).
-    * E = Em alojamento universitário da própria instituição.
-    * F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro).
+    * A = Sozinho.
+    * B = Parentes.
+    * C = Cônjuge/Filhos.
+    * D = Outras pessoas.
+    * E = Universidade.
+    * F = Habitação individual/coletiva.
 
 * **2014**:
-    * A = Em casa ou apartamento, sozinho.
-    * B = Em casa ou apartamento, com pais e/ou parentes.
-    * C = Em casa ou apartamento, com cônjuge e/ou filhos.
-    * D = Em casa ou apartamento, com outras pessoas (incluindo república).
-    * E = Em alojamento universitário da própria instituição.
-    * F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro).
+    * A = Sozinho.
+    * B = Parentes.
+    * C = Cônjuge/Filhos.
+    * D = Outras pessoas.
+    * E = Universidade.
+    * F = Habitação individual/coletiva.
 
 * **2011**:
-    * A = Em casa ou apartamento, sozinho.
-    * B = Em casa ou apartamento, com pais e/ou parentes.
-    * C = Em casa ou apartamento, com cônjuge e/ou filhos.
-    * D = Em casa ou apartamento, com outras pessoas (incluindo república).
-    * E = Em alojamento universitário da própria instituição de ensino.
-    * F = Em outros tipos de habitação individual ou coletiva (hotel, hospedaria, pensão ou outro).
+    * A = Sozinho.
+    * B = Parentes.
+    * C = Cônjuge/Filhos.
+    * D = Outras pessoas.
+    * E = Universidade.
+    * F = Habitação individual/coletiva.
 
 21 - <mark>Quantidade de pessoas em sua moradia</mark>;
 
@@ -511,168 +512,135 @@ Privada);
     * E = Quatro.
     * F = Cinco.
     * G = Seis.
-    * H = Mais de seis.
+    * H = Sete ou mais.
 
 22 - <mark>Política de ação afirmativa ou inclusão social utilizada para ingresso no curso</mark>;
 
 * **2021**:
     * A = Não.
-    * B = Sim, por critério étnico-racial.
-    * C = Sim, por critério de renda.
-    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
-    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
-    * F = Sim, por sistema diferente dos anteriores.
+    * B = Critério étnico-racial.
+    * C = Critério de renda.
+    * D = Bolsa de estudos.
+    * E = Combinação de critérios.
+    * F = Critérios diferentes.
 
 * **2017**:
     * A = Não.
-    * B = Sim, por critério étnico-racial.
-    * C = Sim, por critério de renda.
-    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
-    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
-    * F = Sim, por sistema diferente dos anteriores.
+    * B = Critério étnico-racial.
+    * C = Critério de renda.
+    * D = Bolsa de estudos.
+    * E = Combinação de critérios.
+    * F = Critérios diferentes.
 
 * **2014**:
     * A = Não.
-    * B = Sim, por critério étnico-racial.
-    * C = Sim, por critério de renda.
-    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
-    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
-    * F = Sim, por sistema diferente dos anteriores.
+    * B = Critério étnico-racial.
+    * C = Critério de renda.
+    * D = Bolsa de estudos.
+    * E = Combinação de critérios.
+    * F = Critérios diferentes.
 
 * **2011**:
     * A = Não.
-    * B = Sim, por critério étnico-racial (negros, pardos e indígenas).
-    * C = Sim, por critério de renda.
-    * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos.
-    * E = Sim, por sistema que combina dois ou mais critérios anteriores.
-    * F = Sim, por sistema diferente dos anteriores.
-
-* **2008**:
-    * A = Sim, por meio de sistema de reserva de vagas com identificação étnico-racial (negros, pardos e indígenas)
-    * B = Sim, por meio de sistema de reserva de vagas com recorte social (egresso de escola pública, renda, etc.)
-    * C = Sim, por sistema distinto dos anteriores
-    * D = Não
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * B = Critério étnico-racial.
+    * C = Critério de renda.
+    * D = Bolsa de estudos.
+    * E = Combinação de critérios.
+    * F = Critérios diferentes.
 
 23 - <mark>Situação de trabalho do participante</mark>;
 
 * **2021**:
-    * A = Não estou trabalhando.
-    * B = Trabalho eventualmente.
-    * C = Trabalho até 20 horas semanais.
-    * D = Trabalho de 21 a 39 horas semanais.
-    * E = Trabalho 40 horas semanais ou mais.
+    * A = Não.
+    * B = Eventualmente.
+    * C = Até 20 horas. (semanais)
+    * D = 21 a 39 horas. (semanais)
+    * E = 40 horas ou mais. (semanais)
 
 * **2017**:
-    * A = Não estou trabalhando.
-    * B = Trabalho eventualmente.
-    * C = Trabalho até 20 horas semanais.
-    * D = Trabalho de 21 a 39 horas semanais.
-    * E = Trabalho 40 horas semanais ou mais.
+    * A = Não.
+    * B = Eventualmente.
+    * C = Até 20 horas. (semanais)
+    * D = 21 a 39 horas. (semanais)
+    * E = 40 horas ou mais. (semanais)
 
 * **2014**:
-    * A = Não estou trabalhando.
-    * B = Trabalho eventualmente.
-    * C = Trabalho até 20 horas semanais.
-    * D = Trabalho de 21 a 39 horas semanais.
-    * E = Trabalho 40 horas semanais ou mais.
+    * A = Não.
+    * B = Eventualmente.
+    * C = Até 20 horas. (semanais)
+    * D = 21 a 39 horas. (semanais)
+    * E = 40 horas ou mais. (semanais)
 
 * **2011**:
-    * A = Não estou trabalhando.
-    * B = Trabalho eventualmente.
-    * C = Trabalho até 20 horas semanais.
-    * D = Trabalho mais de  20 horas semanais e menos de 40 horas semanais.
-    * E = Trabalho em tempo integral - 40 horas semanais ou mais.
-
-* **2008**:
-    * A = Não trabalho / nunca exerci atividade remunerada
-    * B = Trabalho / trabalhei eventualmente
-    * C = Trabalho / trabalhei até 20 horas semanais
-    * D = Trabalho / trabalhei mais de 20 horas semanais e menos de 40 horas semanais
-    * E = Trabalho / trabalhei em tempo integral - 40 horas semanais ou mais
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Não.
+    * B = Eventualmente.
+    * C = Até 20 horas. (semanais)
+    * D = 21 a 39 horas. (semanais)
+    * E = 40 horas ou mais. (semanais)
 
 24 - <mark>Quantidade de livros lidos no ano de realização do exame</mark>;
 
 * **2021**:
     * A = Nenhum.
-    * B = Um ou dois.
-    * C = De três a cinco.
-    * D = De seis a oito.
-    * E = Mais de oito.
+    * B = 1 ou 2.
+    * C = 3-5.
+    * D = 6-8.
+    * E = +8.
 
 * **2017**:
     * A = Nenhum.
-    * B = Um ou dois.
-    * C = De três a cinco.
-    * D = De seis a oito.
-    * E = Mais de oito.
+    * B = 1 ou 2.
+    * C = 3-5.
+    * D = 6-8.
+    * E = +8.
 
 * **2014**:
     * A = Nenhum.
-    * B = Um ou dois.
-    * C = De três a cinco.
-    * D = De seis a oito.
-    * E = Mais de oito.
+    * B = 1 ou 2.
+    * C = 3-5.
+    * D = 6-8.
+    * E = +8.
 
 * **2011**:
     * A = Nenhum.
-    * B = Um ou dois.
-    * C = De três a cinco.
-    * D = De seis a oito.
-    * E = Mais de oito.
-
-* **2008**:
-    * A = Nenhum (Neste caso, passe para a questão 23)
-    * B = No máximo dois
-    * C = Entre três e cinco
-    * D = Entre seis e oito
-    * E = Mais de oito
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * B = 1 ou 2.
+    * C = 3-5.
+    * D = 6-8.
+    * E = +8.
 
 25 - <mark>Horas dedicadas à estudos, além das horas de aula</mark>;
 
 * **2021**:
-    * A = Nenhuma, apenas assisto às aulas.
-    * B = De uma a três.
-    * C = De quatro a sete.
-    * D = De oito a doze.
-    * E = Mais de doze.
+    * A = Nenhuma.
+    * B = 1-3.
+    * C = 4-7.
+    * D = 8-12.
+    * E = +12.
 
 * **2017**:
-    * A = Nenhuma, apenas assisto às aulas.
-    * B = De uma a três.
-    * C = De quatro a sete.
-    * D = De oito a doze.
-    * E = Mais de doze.
+    * A = Nenhuma.
+    * B = 1-3.
+    * C = 4-7.
+    * D = 8-12.
+    * E = +12.
 
 * **2014**:
-    * A = Nenhuma, apenas assisto às aulas.
-    * B = De uma a três.
-    * C = De quatro a sete.
-    * D = De oito a doze.
-    * E = Mais de doze.
+    * A = Nenhuma.
+    * B = 1-3.
+    * C = 4-7.
+    * D = 8-12.
+    * E = +12.
 
 * **2011**:
-    * A = Nenhuma, apenas assisto às aulas.
-    * B = De uma a três.
-    * C = De quatro a sete.
-    * D = De oito a doze.
-    * E = Mais de doze.
-
-* **2008**:
-    * A = Nenhuma, apenas assisto às aulas
-    * B = Uma a duas
-    * C = Três a cinco
-    * D = Seis a oito
-    * E = Mais de oito
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Nenhuma.
+    * B = 1-3.
+    * C = 4-7.
+    * D = 8-12.
+    * E = +12.
 
 26 - <mark>Opinião sobre as condições das salas de aulas</mark>;
+
+* **OBS**: Faltar opções não importa pelo fato de naquele ano estas serem as disponíveis. Desde que os atributos tenham valores padronizados, está certo.
 
 * **2021**:
     * 1 = Discordo totalmente.
@@ -705,19 +673,10 @@ Privada);
     * 8 = Não se aplica.
 
 * **2011**:
-    * A = Sim, todas.
-    * B = Sim, a maior parte.
-    * C = Somente algumas.
-    * D = Nenhuma.
-
-* **2008**:
-    * A = Amplas, arejadas, bem iluminadas e com mobiliário adequado
-    * B = Arejadas, bem iluminadas e com mobiliário satisfatório, embora pequenas em relação ao número de estudantes
-    * C = Bem iluminadas e com mobiliário satisfatório, embora sejam mal ventiladas e pequenas em relação ao número de estudantes
-    * D = Mal ventiladas, mal iluminadas, pequenas em relação ao número de estudantes e com mobiliário razoavelmente satisfatório
-    * E = Mal arejadas, mal iluminadas, com mobiliário inadequado e pequenas em relação ao número de estudantes
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Sim, todas. -> Concordo totalmente
+    * B = Sim, a maior parte. -> Concordo
+    * C = Somente algumas. -> Concordo parcialmente
+    * D = Nenhuma. -> Discordo totalmente
 
 27 - <mark>Opinião sobre as condições das salas de aulas práticas</mark>;
 
@@ -752,23 +711,14 @@ Privada);
     * 8 = Não se aplica.
 
 * **2011**:
-    * A = Sim, todos.
-    * B = Sim, a maior parte.
-    * C = Somente alguns.
-    * D = Nenhuma.
-
-* **2008**:
-    * A = Sim, em todas elas
-    * B = Sim, na maior parte delas
-    * C = Sim, mas apenas na metade delas
-    * D = Sim, mas em menos da metade delas
-    * E = Não, em nenhuma
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Sim, todos. -> Concordo totalmente
+    * B = Sim, a maior parte. -> Concordo
+    * C = Somente alguns. -> Concordo parcialmente
+    * D = Nenhuma. -> Discordo totalmente
 
 28 - <mark>Opinião sobre o plano de ensino do curso</mark>;
 
-* **2021**:
+* **2021**: "Os planos de ensino apresentados pelos professores contribuíram para o desenvolvimento das atividades acadêmicas e para seus estudos"
     * 1 = Discordo totalmente.
     * 2 = Discordo.
     * 3 = Discordo parcialmente.
@@ -798,20 +748,11 @@ Privada);
     * 7 = Não sei responder.
     * 8 = Não se aplica.
 
-* **2011** (34/52):
-    * A = Contribui amplamente. 
-    * B = Contribui parcialmente. 
-    * C = Contribui muito pouco. 
-    * D = Não contribui.
-
-* **2008** (74/76):
-    * A = São altamente relevantes
-    * B = São relevantes
-    * C = São medianamente relevantes
-    * D = São de pouca relevância
-    * E = Não são relevantes
-    * \* = Resposta anulada
-    * . = Sem resposta
+* **2011** (34/52): "Você considera que seu curso contribui para a aquisição de formação teórica na área?"
+    * A = Contribui amplamente. -> Concordo totalmente
+    * B = Contribui parcialmente. -> Concordo parcialmente
+    * C = Contribui muito pouco. -> Discordo
+    * D = Não contribui. -> Discordo totalmente
 
 29 - <mark>Avaliação pessoal da contribuição do curso para a formação</mark>;
 
@@ -846,20 +787,11 @@ Privada);
     * 8 = Não se aplica.
 
 * **2011**:
-    * A = Muito boa. 
-    * B = Boa. 
-    * C = Regular. 
-    * D = Fraca. 
-    * E = Muito fraca.
-
-* **2008**:
-    * A = Muito boa
-    * B = Boa
-    * C = Regular
-    * D = Fraca
-    * E = Muito fraca
-    * \* = Resposta anulada
-    * . = Sem resposta
+    * A = Muito boa. -> Concordo totalmente
+    * B = Boa. -> Concordo
+    * C = Regular. -> Concordo parcialmente
+    * D = Fraca. -> Discordo
+    * E = Muito fraca. -> Discordo totalmente
     
 30 - <mark>Situação Financeira</mark> (QE_I09 (2021), QE_I06 (2011));
 
@@ -871,7 +803,15 @@ Privada);
 
 34 - <mark>O curso exigiu de você organização e dedicação frequente aos estudos</mark> (QE_I42 (2021), QE_I50 (2011));
 
-35 - <mark></mark>;
+35 - <mark>Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária</mark> (QE_I43 (2021), QE_I45 (2011));
+
+36 - <mark>O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição</mark> (QE_I45 (2021), QE_I49 (2011));
+
+37 - <mark>Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas</mark> (QE_I56 (2021), QE_I41 (2011));
+
+38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011));
+
+39 - <mark>A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram</mark> (QE_I64 (2021), QE_I31 (2011));
 
 40 - <mark>A instituição promoveu atividades de cultura, de lazer e de interação social</mark> (QE_I67 (2021), QE_I51 (2011));
 
