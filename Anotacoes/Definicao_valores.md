@@ -4,6 +4,7 @@
         * 2 - Utilizar média/moda/mediana no caso de valores simbólicos, utilizando todos objetos ou apenas os da classe em questão.
     * Verificar se não há atributos redundantes, ou seja, que possuem valores muito semelhantes.
     * Inserir ou não a cat_adm especial nos que a apresentam. Ela fazia parte de uma das classificações, e agora está a parte?
+    * Ver o cod da inst.
     
 
 29 atributos selecionados:
@@ -53,6 +54,7 @@
 
 * **OBS**:
     * Categoria administrativa: especial – enquadra-se nessa categoria, a instituição de educação superior criada por lei, estadual ou municipal, e existente na data da promulgação da Constituição Federal de 1988, que não seja total ou preponderantemente mantida com recursos públicos, portanto, não gratuita.
+    * Quais são essas instituições, poderia ser privada? (especial) (instuições municipais, que cobram mensalidade) (pesquisar sobre e ver os cods das especiais) (ver quantas linhas são as inst. especiais)
 
 * **2021**:
     * 1. Pública Federal
@@ -794,11 +796,13 @@ Privada);
     * D = Fraca. -> Discordo
     * E = Muito fraca. -> Discordo totalmente
     
+# Ver compatibilidade dos valores
+    
 30 - <mark>Situação Financeira</mark> (QE_I09 (2021), QE_I06 (2011));
 
 31 - <mark>Tipo de bolsa/Financiamento</mark> (QE_I11 (2021), QE_I10 (2011));
 
-32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011));
+32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011)); # Ver se está no mesmo arquivo de onde o cara fez o EM
 
 33 - <mark>O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional</mark> (QE_I31 (2021), QE_I53 (2011));
 
