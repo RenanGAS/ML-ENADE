@@ -3,6 +3,7 @@
         * 1 - Utilizar algum método ou heurística para automaticamente definir valores para atributos com valores ausentes;
         * 2 - Utilizar média/moda/mediana no caso de valores simbólicos, utilizando todos objetos ou apenas os da classe em questão.
     * Verificar se não há atributos redundantes, ou seja, que possuem valores muito semelhantes.
+    * Inserir ou não a cat_adm especial nos que a apresentam. Ela fazia parte de uma das classificações, e agora está a parte?
     
 
 29 atributos selecionados:
