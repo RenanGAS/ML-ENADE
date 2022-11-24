@@ -175,8 +175,6 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 
 * **2011**: 1971 - 2011
 
-* **2008**: 0 - 2099
-
 11 - <mark>Tipo de escola que o participante cursou o Ensino Médio</mark> (Pública ou 
 Privada);
 
