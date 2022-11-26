@@ -794,7 +794,7 @@ Privada);
     * D = Fraca. -> Discordo
     * E = Muito fraca. -> Discordo totalmente
     
-# Ver compatibilidade dos valores
+# Atributos adicionados
     
 30 - <mark>Situação Financeira</mark> (QE_I09 (2021), QE_I06 (2011));
 
@@ -821,6 +821,7 @@ Privada);
 Variáveis derivadas das variáveis selecionadas:
 
 1 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
+
 * Exemplo:
     * A = Não. -> Não
     * B = Sim, por critério étnico-racial. -> Sim
@@ -830,7 +831,7 @@ Variáveis derivadas das variáveis selecionadas:
     * F = Sim, por sistema diferente dos anteriores. -> Sim
     
 2 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
-* ANO_FIM_EM - ANO_IN_GRAD
+* ANO_IN_GRAD - ANO_FIM_EM
 
 3 - Quantidade de anos que o participante está na graduação.
 * NU_ANO - ANO_IN_GRAD

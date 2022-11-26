@@ -964,10 +964,569 @@ Privada);
     * E = Muito fraca
     * \* = Resposta anulada
     * . = Sem resposta
+    
+# Atributos adicionados
+    
+30 - <mark>Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?</mark> (QE_I09 (2021), QE_I06 (2011));
+
+* **2021**:
+    * A = Não tenho renda e meus gastos são financiados por programas governamentais.
+    * B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.
+    * C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.
+    * D = Tenho renda e não preciso de ajuda para financiar meus gastos.
+    * E = Tenho renda e contribuo com o sustento da família.
+    * F = Sou o principal responsável pelo sustento da família.
+
+* **2017**:
+    * A = Não tenho renda e meus gastos são financiados por programas governamentais.
+    * B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.
+    * C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.
+    * D = Tenho renda e não preciso de ajuda para financiar meus gastos.
+    * E = Tenho renda e contribuo com o sustento da família.
+    * F = Sou o principal responsável pelo sustento da família.
+
+* **2014**:
+    * A = Não tenho renda e meus gastos são financiados por programas governamentais.
+    * B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.
+    * C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.
+    * D = Tenho renda e não preciso de ajuda para financiar meus gastos.
+    * E = Tenho renda e contribuo com o sustento da família.
+    * F = Sou o principal responsável pelo sustento da família.
+
+* **2011**:
+    * A = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas.
+    * B = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos.
+    * C = Tenho renda e me sustento totalmente.
+    * D = Tenho renda, me sustento e contribuo com o sustento da família.
+    * E = Tenho renda, me sustento e sou o principal responsável pelo sustento da família.
+
+31 - <mark>Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.</mark> (QE_I11 (2021), QE_I10 (2011));
+
+* **2021**:
+
+    * A = Nenhum, pois meu curso é gratuito.
+    * B = Nenhum, embora meu curso não seja gratuito.
+    * C = ProUni integral.
+    * D = ProUni parcial, apenas.
+    * E = FIES, apenas.
+    * F = ProUni Parcial e FIES.
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
+    * H = Bolsa oferecida pela própria instituição.
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+    * J = Financiamento oferecido pela própria instituição.
+    * K = Financiamento bancário.
+
+* **2017**:
+
+    * A = Nenhum, pois meu curso é gratuito.
+    * B = Nenhum, embora meu curso não seja gratuito.
+    * C = ProUni integral.
+    * D = ProUni parcial, apenas.
+    * E = FIES, apenas.
+    * F = ProUni Parcial e FIES.
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
+    * H = Bolsa oferecida pela própria instituição.
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+    * J = Financiamento oferecido pela própria instituição.
+    * K = Financiamento bancário.
+
+* **2014**:
+
+    * A = Nenhum, pois meu curso é gratuito.
+    * B = Nenhum, embora meu curso não seja gratuito.
+    * C = ProUni integral.
+    * D = ProUni parcial, apenas.
+    * E = FIES, apenas.
+    * F = ProUni Parcial e FIES.
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
+    * H = Bolsa oferecida pela própria instituição.
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+    * J = Financiamento oferecido pela própria instituição.
+    * K = Financiamento bancário.
+
+* **2011**:
+
+    * A = ProUni integral.
+    * B = ProUni parcial.
+    * C = FIES.
+    * D = ProUni Parcial e FIES.
+    * E = Outro tipo de bolsa oferecido por governo estadual, distrital ou municipal.
+    * F = Bolsa integral ou parcial oferecida pela própria instituição de ensino.
+    * G = Bolsa integral ou parcial oferecida por outra entidade (empresa, ONG, outra).
+    * H = Financiamento oferecido pela própria instituição de ensino.
+    * I = Financiamento oferecido por outra entidade (banco privado, etc).
+    * J = Mais de um dos tipos de bolsa ou financiamento citados.
+
+32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011)); # Ver se está no mesmo arquivo de onde o cara fez o EM
+
+* **2021**:
+
+    * 11 = Rondônia (RO)
+    * 12 = Acre (AC)
+    * 13 = Amazonas (AM)
+    * 14 = Roraima (RR)
+    * 15 = Pará (PA)
+    * 16 = Amapa (AP)
+    * 17 = Tocantins (TO)
+    * 21 = Maranhão (MA)
+    * 22 = Piauí (PI)
+    * 23 = Ceará (CE)
+    * 24 = Rio Grande do Norte (RN)
+    * 25 = Paraíba (PB)
+    * 26 = Pernambuco (PE)
+    * 27 = Alagoas (AL)
+    * 28 = Sergipe (SE)
+    * 29 = Bahia (BA)
+    * 31 = Minas gerais (MG)
+    * 32 = Espírito Santo (ES)
+    * 33 = Rio de Janeiro (RJ)
+    * 35 = São Paulo (SP)
+    * 41 = Paraná (PR)
+    * 42 = Santa Catarina (SC)
+    * 43 = Rio Grande do Sul (RS)
+    * 50 = Mato Grosso do Sul (MS)
+    * 51 = Mato Grosso (MT)
+    * 52 = Goiás (GO)
+    * 53 = Distrito federal (DF)
+    * 99 = Não se aplica
+
+
+* **2017**:
+
+    * 11 = Rondônia (RO)
+    * 12 = Acre (AC)
+    * 13 = Amazonas (AM)
+    * 14 = Roraima (RR)
+    * 15 = Pará (PA)
+    * 16 = Amapa (AP)
+    * 17 = Tocantins (TO)
+    * 21 = Maranhão (MA)
+    * 22 = Piauí (PI)
+    * 23 = Ceará (CE)
+    * 24 = Rio Grande do Norte (RN)
+    * 25 = Paraíba (PB)
+    * 26 = Pernambuco (PE)
+    * 27 = Alagoas (AL)
+    * 28 = Sergipe (SE)
+    * 29 = Bahia (BA)
+    * 31 = Minas gerais (MG)
+    * 32 = Espírito Santo (ES)
+    * 33 = Rio de Janeiro (RJ)
+    * 35 = São Paulo (SP)
+    * 41 = Paraná (PR)
+    * 42 = Santa Catarina (SC)
+    * 43 = Rio Grande do Sul (RS)
+    * 50 = Mato Grosso do Sul (MS)
+    * 51 = Mato Grosso (MT)
+    * 52 = Goiás (GO)
+    * 53 = Distrito federal (DF)
+    * 99 = Não se aplica
+
+
+* **2014**:
+
+    * 11 = Rondônia (RO)
+    * 12 = Acre (AC)
+    * 13 = Amazonas (AM)
+    * 14 = Roraima (RR)
+    * 15 = Pará (PA)
+    * 16 = Amapa (AP)
+    * 17 = Tocantins (TO)
+    * 21 = Maranhão (MA)
+    * 22 = Piauí (PI)
+    * 23 = Ceará (CE)
+    * 24 = Rio Grande do Norte (RN)
+    * 25 = Paraíba (PB)
+    * 26 = Pernambuco (PE)
+    * 27 = Alagoas (AL)
+    * 28 = Sergipe (SE)
+    * 29 = Bahia (BA)
+    * 31 = Minas gerais (MG)
+    * 32 = Espírito Santo (ES)
+    * 33 = Rio de Janeiro (RJ)
+    * 35 = São Paulo (SP)
+    * 41 = Paraná (PR)
+    * 42 = Santa Catarina (SC)
+    * 43 = Rio Grande do Sul (RS)
+    * 50 = Mato Grosso do Sul (MS)
+    * 51 = Mato Grosso (MT)
+    * 52 = Goiás (GO)
+    * 53 = Distrito federal (DF)
+    * 99 = Não se aplica
+
+
+* **2011**:
+
+    * 11 = Rondônia (RO)
+    * 12 = Acre (AC)
+    * 13 = Amazonas (AM)
+    * 14 = Roraima (RR)
+    * 15 = Pará (PA)
+    * 16 = Amapa (AP)
+    * 17 = Tocantins (TO)
+    * 21 = Maranhão (MA)
+    * 22 = Piauí (PI)
+    * 23 = Ceará (CE)
+    * 24 = Rio Grande do Norte (RN)
+    * 25 = Paraíba (PB)
+    * 26 = Pernambuco (PE)
+    * 27 = Alagoas (AL)
+    * 28 = Sergipe (SE)
+    * 29 = Bahia (BA)
+    * 31 = Minas gerais (MG)
+    * 32 = Espírito Santo (ES)
+    * 33 = Rio de Janeiro (RJ)
+    * 35 = São Paulo (SP)
+    * 41 = Paraná (PR)
+    * 42 = Santa Catarina (SC)
+    * 43 = Rio Grande do Sul (RS)
+    * 50 = Mato Grosso do Sul (MS)
+    * 51 = Mato Grosso (MT)
+    * 52 = Goiás (GO)
+    * 53 = Distrito federal (DF)
+    * 99 = Exterior
+
+33 - <mark>O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional</mark> (QE_I31 (2021), QE_I53 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Contribui amplamente. 
+    * B = Contribui parcialmente. 
+    * C = Contribui muito pouco. 
+    * D = Não contribui.
+
+34 - <mark>O curso exigiu de você organização e dedicação frequente aos estudos</mark> (QE_I42 (2021), QE_I50 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Deveria exigir muito mais. 
+    * B = Deveria exigir um pouco mais. 
+    * C = Exige na medida certa.
+    * D = Deveria exigir um pouco menos.  
+    * E = Deveria exigir muito menos.  
+
+35 - <mark>Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária</mark> (QE_I43 (2021), QE_I45 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Sim, regularmente, com programação diversificada. 
+    * B = Sim, regularmente, com programação pouco diversificada. 
+    * C = Sim, eventualmente, com programação diversificada. 
+    * D = Sim, eventualmente, com programação pouco diversificada. 
+    * E = Não oferece atividades complementares.
+
+36 - <mark>O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição</mark> (QE_I45 (2021), QE_I49 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Sim, sem restrições. 
+    * B = Sim, mas apenas eventualmente. 
+    * C = Não apoia de modo algum. 
+    * D = Não sei responder. 
+
+37 - <mark>Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas</mark> (QE_I56 (2021), QE_I41 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Sim, todos os professores. 
+    * B  = Sim, a maior parte. 
+    * C = Somente alguns. 
+    * D = Nenhum.
+
+38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Sim, todos os professores.  
+    * B = Sim, a maior parte. 
+    * C = Somente alguns. 
+    * D = Nenhum.
+
+39 - <mark>A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram</mark> (QE_I64 (2021), QE_I31 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = É atualizado. 
+    * B = É parcialmente atualizado. 
+    * C = É pouco atualizado. 
+    * D = É desatualizado.
+
+40 - <mark>A instituição promoveu atividades de cultura, de lazer e de interação social</mark> (QE_I67 (2021), QE_I51 (2011));
+
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Contribui amplamente. 
+    * B = Contribui parcialmente. 
+    * C = Contribui muito pouco. 
+    * D = Não contribui.
 
 Variáveis derivadas das variáveis selecionadas:
 
-30 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
+1 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
 * Exemplo:
     * A = Não. -> Não
     * B = Sim, por critério étnico-racial. -> Sim
@@ -975,12 +1534,12 @@ Variáveis derivadas das variáveis selecionadas:
     * D = Sim, por ter estudado em escola pública ou particular com bolsa de estudos. -> Sim
     * E = Sim, por sistema que combina dois ou mais critérios anteriores. -> Sim
     * F = Sim, por sistema diferente dos anteriores. -> Sim
-
-31 - Idade do participante no início da graduação (**Atributo inválido**);
-* NU_IDADE e ANO_IN_GRAD em arquivos diferentes
-
-32 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
+    
+2 - Quantidade de anos que o participante esteve ocioso entre a conclusão do Ensino Médio até o início da graduação;
 * ANO_FIM_EM - ANO_IN_GRAD
 
-33 - Quantidade de anos que o participante está na graduação.
+3 - Quantidade de anos que o participante está na graduação.
 * NU_ANO - ANO_IN_GRAD
+
+-1 - Idade do participante no início da graduação (**Atributo inválido**);
+* NU_IDADE e ANO_IN_GRAD em arquivos diferentes
