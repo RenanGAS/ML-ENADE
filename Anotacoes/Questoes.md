@@ -2,11 +2,9 @@
 
 - Testar inserção de atributos derivados;
 
-- Pintar os atributos correspondentes a cada arquivo para podermos ter ideias de derivação de atributos;
+- Refazer o arquivo pre-process_2017.csv;
 
-- Ver sobre as IESes Especiais e identificar exemplos;
-
-- Fazer resumo do que fiz de codificação até agora.
+- Pintar os atributos correspondentes a cada arquivo para podermos ter ideias de derivação de atributos.
 
 # Perguntas
 
@@ -15,6 +13,12 @@
  - Atributo Derivado "Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social" (Sim ou não): Mesma pergunta que "Política de ação afirmativa ou inclusão social utilizada para ingresso no curso" ?
  
  - Ausência de valores em um atributo em um ano é um problema ? (Atributos de 2011 tem bastante valores a menos em atributos, mas iguais também)
+ 
+ - Valores DJ1 em 2014
+ 
+ - Código das IESes especiais: 21103 (FIEP - Privada CFL), 37862, 107988, 150138, 150268, 1286381
+ 
+     - Site: https://emec.mec.gov.br/emec/nova
  
  - Sobre os novos atributos:
  
