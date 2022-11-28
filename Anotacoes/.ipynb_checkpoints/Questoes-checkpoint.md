@@ -4,7 +4,7 @@
 
 - Refazer o arquivo pre-process_2017.csv;
 
-- Pintar os atributos correspondentes a cada arquivo para podermos ter ideias de derivação de atributos.
+- Pintar os atributos correspondentes a cada arquivo para podermos ter ideias de derivação de atributos (Fazer isso para os anos restantes: 2017, 2014 e 2011).
 
 # Perguntas
 
