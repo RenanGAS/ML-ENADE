@@ -1265,10 +1265,10 @@ Privada);
 
 * **2011**:
 
-    * A = Deveria exigir muito mais. 
-    * B = Deveria exigir um pouco mais. 
+    * A = Deveria exigir muito mais.
+    * B = Deveria exigir um pouco mais.
     * C = Exige na medida certa.
-    * D = Deveria exigir um pouco menos.  
+    * D = Deveria exigir um pouco menos.
     * E = Deveria exigir muito menos.  
 
 35 - <mark>Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária</mark> (QE_I43 (2021), QE_I45 (2011));
@@ -1393,7 +1393,7 @@ Privada);
 
 * **2011**:
 
-    * A = Sim, todos os professores. 
+    * A = Sim, todos os professores.
     * B  = Sim, a maior parte. 
     * C = Somente alguns. 
     * D = Nenhum.
