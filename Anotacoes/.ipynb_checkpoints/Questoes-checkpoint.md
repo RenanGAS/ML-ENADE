@@ -10,6 +10,18 @@
 
 - Integrar os 4 anos.
 
+- Para todos atributos numéricos vamos fazer a média.
+
+- Tirar Conclusao_ensino_medio -> nu_ano - ensino_medio.
+
+- Maior parte ... -> Privada ou Pública. Brasil e Exterior -> Exterior.
+
+- Vamos fazer um contador para cada atributo não numérico, fazendo várias colunas para cada valor de atributo.
+
+- Vamos de acordo com os atributos, classificar uma nota 1 ~ 5 do enade.
+
+- Ver como calcula a nota enade com base na nota geral.
+
 # Perguntas
 
 - O que fazer com valores não pertencentes ao padronizado ? (Metade pública e metade privada) (Se poucas exclui, se muitas, separa os dados em 2: publica e privada)
