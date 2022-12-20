@@ -967,7 +967,7 @@ Privada);
     
 # Atributos adicionados
     
-30 - <mark>Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?</mark> (QE_I09 (2021), QE_I06 (2011));
+30 - <mark>Qual alternativa a seguir melhor descreve sua situação financeira (incluindo bolsas)?</mark> (QE_I09 (2021), QE_I06 (2011)); (Acrescentar)
 
 * **2021**:
     * A = Não tenho renda e meus gastos são financiados por programas governamentais.
@@ -1000,7 +1000,7 @@ Privada);
     * D = Tenho renda, me sustento e contribuo com o sustento da família.
     * E = Tenho renda, me sustento e sou o principal responsável pelo sustento da família.
 
-31 - <mark>Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.</mark> (QE_I11 (2021), QE_I10 (2011));
+31 - <mark>Que tipo de bolsa de estudos ou financiamento do curso você recebeu para custear todas ou a maior parte das mensalidades? No caso de haver mais de uma opção, marcar apenas a bolsa de maior duração.</mark> (QE_I11 (2021), QE_I10 (2011)); (Acrescentar)
 
 * **2021**:
 
@@ -1057,7 +1057,8 @@ Privada);
     * I = Financiamento oferecido por outra entidade (banco privado, etc).
     * J = Mais de um dos tipos de bolsa ou financiamento citados.
 
-32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011)); # Ver se está no mesmo arquivo de onde o cara fez o EM
+32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011));
+(Acrescentar)
 
 * **2021**:
 
@@ -1356,7 +1357,7 @@ Privada);
     * C = Não apoia de modo algum. 
     * D = Não sei responder. 
 
-37 - <mark>Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas</mark> (QE_I56 (2021), QE_I41 (2011));
+37 - <mark>Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas</mark> (QE_I56 (2021), QE_I41 (2011)); (Acrescentar)
 
 * **2021**:
 
@@ -1398,7 +1399,7 @@ Privada);
     * C = Somente alguns. 
     * D = Nenhum.
 
-38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011));
+38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011)); (Acrescentar)
 
 * **2021**:
 

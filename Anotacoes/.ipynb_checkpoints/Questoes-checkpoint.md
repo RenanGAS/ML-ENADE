@@ -1,26 +1,18 @@
+# Progresso
+
+- Inclui os atributos 30 (Situação financeira) e 32 (UF Ensino Médio) nos anos.
+
+- Ver quantidade de valores de atributos que não se enquadram, pra ver se exclui ou não.
+
 # Tarefas
 
 - Arrumar posições dos atributos e gerar as tabelas dos anos;
 
-- Ver quantas linhas as IESes especiais ocupam nos anos. (Talvez vamos eliminá-las);
-
 - Ver o que aconteceu com Engenharia da Computação no ENADE. (Enquadrando em outra área?) (Um CO_GRUPO engloba CO_CURSOs) (Pode ter ido pra um outro ciclo de ano (de engenharias));
 
-- Seria ideal os conjuntos (2008, 2011, 2014, 2017, 2021), (2011, 2014, 2017, 2021), (2014, 2017, 2021). (por agora, inserir os 5 não marcados no dataset atual);
-
-- Integrar os 4 anos.
-
-- Para todos atributos numéricos vamos fazer a média.
-
-- Tirar Conclusao_ensino_medio -> nu_ano - ensino_medio.
+- Tirar Conclusao_ensino_medio -> nu_ano - ensino_medio. (Para poder fazer a média dos valores) (Não tem sentido fazer a média dos anos que os caras fizeram do ensino médio, mas sim do tempo que passou entre o ano que fizeram o ensino médio e o ano em que terminaram a graduação).
 
 - Maior parte ... -> Privada ou Pública. Brasil e Exterior -> Exterior.
-
-- Vamos fazer um contador para cada atributo não numérico, fazendo várias colunas para cada valor de atributo.
-
-- Vamos de acordo com os atributos, classificar uma nota 1 ~ 5 do enade.
-
-- Ver como calcula a nota enade com base na nota geral.
 
 # Perguntas
 
@@ -35,6 +27,26 @@
 - Código das IESes especiais: 21103 (FIEP - Privada CFL), 37862, 107988, 150138, 150268, 1286381 (Públicas mas cobram mensalidade)
 
     - Site: https://emec.mec.gov.br/emec/nova
+
+Novas:
+
+- Atributo 31 tem 3 valores diferentes entre os anos.
+
+- Atributo 32 não está no mesmo arquivo que CO_UF_CURSO.
+
+- Atributos 37 e 38 tem valores não correspondentes entre os anos.
+
+# Anotações
+
+- Seria ideal os conjuntos (2008, 2011, 2014, 2017, 2021), (2011, 2014, 2017, 2021), (2014, 2017, 2021). (por agora, inserir os 5 não marcados no dataset atual);
+
+- Para todos atributos numéricos vamos fazer a média.
+
+- Vamos fazer um contador para cada atributo não numérico, fazendo várias colunas para cada valor de atributo.
+
+- Vamos de acordo com os atributos, classificar uma nota 1 ~ 5 do enade.
+
+- Ver como calcula a nota enade com base na nota geral.
      
 - Em 2021:
     - Arquivo 4: NU_ANO, CO_CURSO, QE_I27 ~ QE_I68;

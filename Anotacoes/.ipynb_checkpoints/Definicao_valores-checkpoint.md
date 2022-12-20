@@ -798,25 +798,139 @@ Privada);
     
 30 - <mark>Situação Financeira</mark> (QE_I09 (2021), QE_I06 (2011));
 
+* **2021**:
+    * A = Não tenho renda e meus gastos são financiados por programas governamentais. -> Sem renda/Outros
+    * B = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas. -> Sem renda/Outros
+    * C = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos. -> Tem renda/Outros
+    * D = Tenho renda e não preciso de ajuda para financiar meus gastos. -> Tem renda/Independente
+    * E = Tenho renda e contribuo com o sustento da família. -> Tem renda/Sustenta
+    * F = Sou o principal responsável pelo sustento da família. -> Tem renda/Principal
+
+* **2017**:
+    * A = Sem renda/Outros
+    * B = Sem renda/Outros
+    * C = Tem renda/Outros
+    * D = Tem renda/Independente
+    * E = Tem renda/Sustenta
+    * F = Tem renda/Principal
+
+* **2014**:
+    * A = Sem renda/Outros
+    * B = Sem renda/Outros
+    * C = Tem renda/Outros
+    * D = Tem renda/Independente
+    * E = Tem renda/Sustenta
+    * F = Tem renda/Principal
+
+* **2011**:
+    * A = Não tenho renda e meus gastos são financiados pela minha família ou por outras pessoas. -> Sem renda/Outros
+    * B = Tenho renda, mas recebo ajuda da família ou de outras pessoas para financiar meus gastos. -> Tem renda/Outros
+    * C = Tenho renda e me sustento totalmente. -> Tem renda/Independente
+    * D = Tenho renda, me sustento e contribuo com o sustento da família. -> Tem renda/Sustenta
+    * E = Tenho renda, me sustento e sou o principal responsável pelo sustento da família. -> Tem renda/Principal
+
 31 - <mark>Tipo de bolsa/Financiamento</mark> (QE_I11 (2021), QE_I10 (2011));
+
+* **2021**:
+
+    * A = Nenhum, pois meu curso é gratuito.
+    * B = Nenhum, embora meu curso não seja gratuito.
+    * C = ProUni integral.
+    * D = ProUni parcial, apenas.
+    * E = FIES, apenas.
+    * F = ProUni Parcial e FIES.
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
+    * H = Bolsa oferecida pela própria instituição.
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+    * J = Financiamento oferecido pela própria instituição.
+    * K = Financiamento bancário.
+
+* **2017**:
+
+    * A = Nenhum, pois meu curso é gratuito.
+    * B = Nenhum, embora meu curso não seja gratuito.
+    * C = ProUni integral.
+    * D = ProUni parcial, apenas.
+    * E = FIES, apenas.
+    * F = ProUni Parcial e FIES.
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
+    * H = Bolsa oferecida pela própria instituição.
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+    * J = Financiamento oferecido pela própria instituição.
+    * K = Financiamento bancário.
+
+* **2014**:
+
+    * A = Nenhum, pois meu curso é gratuito.
+    * B = Nenhum, embora meu curso não seja gratuito.
+    * C = ProUni integral.
+    * D = ProUni parcial, apenas.
+    * E = FIES, apenas.
+    * F = ProUni Parcial e FIES.
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
+    * H = Bolsa oferecida pela própria instituição.
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
+    * J = Financiamento oferecido pela própria instituição.
+    * K = Financiamento bancário.
+
+* **2011**:
+
+    * A = ProUni integral.
+    * B = ProUni parcial.
+    * C = FIES.
+    * D = ProUni Parcial e FIES.
+    * E = Outro tipo de bolsa oferecido por governo estadual, distrital ou municipal.
+    * F = Bolsa integral ou parcial oferecida pela própria instituição de ensino.
+    * G = Bolsa integral ou parcial oferecida por outra entidade (empresa, ONG, outra).
+    * H = Financiamento oferecido pela própria instituição de ensino.
+    * I = Financiamento oferecido por outra entidade (banco privado, etc).
+    * J = Mais de um dos tipos de bolsa ou financiamento citados.
 
 32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011)); # Ver se está no mesmo arquivo de onde o cara fez o EM
 
-33 - <mark>O curso contribuiu para o desenvolvimento da sua consciência ética para o exercício profissional</mark> (QE_I31 (2021), QE_I53 (2011));
-
-34 - <mark>O curso exigiu de você organização e dedicação frequente aos estudos</mark> (QE_I42 (2021), QE_I50 (2011));
-
-35 - <mark>Foram oferecidas oportunidades para os estudantes participarem de programas, projetos ou atividades de extensão universitária</mark> (QE_I43 (2021), QE_I45 (2011));
-
-36 - <mark>O curso ofereceu condições para os estudantes participarem de eventos internos e/ou externos à instituição</mark> (QE_I45 (2021), QE_I49 (2011));
-
 37 - <mark>Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas</mark> (QE_I56 (2021), QE_I41 (2011));
 
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente. -> Nenhum
+    * 2 = Discordo. -> Nenhum
+    * 3 = Discordo parcialmente. -> Somente alguns
+    * 4 = Concordo parcialmente. 
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2011**:
+
+    * A = Sim, todos os professores.
+    * B  = Sim, a maior parte. 
+    * C = Somente alguns. 
+    * D = Nenhum.
+
 38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011));
-
-39 - <mark>A biblioteca dispôs das referências bibliográficas que os estudantes necessitaram</mark> (QE_I64 (2021), QE_I31 (2011));
-
-40 - <mark>A instituição promoveu atividades de cultura, de lazer e de interação social</mark> (QE_I67 (2021), QE_I51 (2011));
 
 Variáveis derivadas das variáveis selecionadas:
 
