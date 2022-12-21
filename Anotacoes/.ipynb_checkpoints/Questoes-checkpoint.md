@@ -17,10 +17,15 @@
 - Arrumar valores de atributos que não condizem com 2011:
     - Ver: 19, 26, 27, 28, 29, 37, 38.
     - Luis fez a correspondência baseando-se em 2011.
+    - Manteu "Não se aplica", que não existe em 2011.
+    
+- Ver como calcular o conceito ENADE.
 
-# Perguntas
+- Ver como
 
-- Atributo 31 tem 3 valores diferentes entre os anos.
+# Questões
+
+- Atributo 31 tem 3 valores diferentes entre os anos. (ver último atributo)
 
 - Atributo 32 não está no mesmo arquivo que CO_UF_CURSO.
 
@@ -55,7 +60,7 @@
 
 - Vamos de acordo com os atributos, classificar uma nota 1 ~ 5 do enade.
 
-- Ver como calcula a nota enade com base na nota geral.
+- **Ver como calcula a nota enade com base na nota geral**.
      
 - Em 2021:
     - Arquivo 4: NU_ANO, CO_CURSO, QE_I27 ~ QE_I68;

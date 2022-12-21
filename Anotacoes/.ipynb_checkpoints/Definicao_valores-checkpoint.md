@@ -829,7 +829,7 @@ Privada);
     * D = Tenho renda, me sustento e contribuo com o sustento da família. -> Tem renda/Sustenta
     * E = Tenho renda, me sustento e sou o principal responsável pelo sustento da família. -> Tem renda/Principal
 
-31 - <mark>Tipo de bolsa/Financiamento</mark> (QE_I11 (2021), QE_I10 (2011));
+31 - <mark>Tipo de bolsa/Financiamento</mark> (QE_I11 (2021), QE_I10 e QE_I09 (2011));
 
 * **2021**:
 
@@ -874,7 +874,8 @@ Privada);
     * K = Financiamento bancário.
 
 * **2011**:
-
+    
+    * Usar QE_I09.
     * A = ProUni integral.
     * B = ProUni parcial.
     * C = FIES.
@@ -884,7 +885,7 @@ Privada);
     * G = Bolsa integral ou parcial oferecida por outra entidade (empresa, ONG, outra).
     * H = Financiamento oferecido pela própria instituição de ensino.
     * I = Financiamento oferecido por outra entidade (banco privado, etc).
-    * J = Mais de um dos tipos de bolsa ou financiamento citados.
+    * J = Mais de um dos tipos de bolsa ou financiamento citados. (ver se dá pra excluir)
 
 32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011)); # Ver se está no mesmo arquivo de onde o cara fez o EM
 
@@ -917,11 +918,13 @@ Privada);
     * 1 = Discordo totalmente. -> Nenhum
     * 2 = Discordo. -> Nenhum
     * 3 = Discordo parcialmente. -> Somente alguns
-    * 4 = Concordo parcialmente. 
-    * 5 = Concordo.
-    * 6 = Concordo totalmente.
-    * 7 = Não sei responder.
-    * 8 = Não se aplica.
+    * 4 = Concordo parcialmente. -> Sim, todos os professores.
+    * 5 = Concordo. -> Sim, a maior parte. 
+    * 6 = Concordo totalmente. -> Sim, todos os professores.
+    * 7 = Não sei responder.|
+    * 8 = Não se aplica.    | condensar num só
+    
+* Ver quantas linhas
 
 * **2011**:
 
@@ -929,8 +932,13 @@ Privada);
     * B  = Sim, a maior parte. 
     * C = Somente alguns. 
     * D = Nenhum.
+    * Usar nulos para naõ responder e não aplica
 
-38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011));
+* Ver quantas linhas
+
+38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011)); 
+
+* Repetir o que fiz pra 37
 
 Variáveis derivadas das variáveis selecionadas:
 
