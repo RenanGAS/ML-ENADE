@@ -70,7 +70,7 @@
     * 3. Pública Municipal
     * 4. Privada CFL
     * 5. Privada SFL
-    * 7. Especial
+    * 7. Especial -> Pública Municipal
 
 * **2014**:
 
@@ -79,7 +79,7 @@
     * 3. Pública Municipal
     * 4. Privada CFL
     * 5. Privada SFL
-    * 7. Especial
+    * 7. Especial (valor ausente)
 
 * **2011**:
 
@@ -207,7 +207,7 @@ Privada);
     * B = Privada.
     * C = Maior parte pública.
     * D = Maior parte Privada.
-    * E = Metade em escola pública e metade em escola privada (particular). (Excluído)
+    * E = Metade em escola pública e metade em escola privada.
 
 12 - <mark>Modalidade de Ensino Médio</mark>;
 

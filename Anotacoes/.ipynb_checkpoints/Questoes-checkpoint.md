@@ -2,33 +2,23 @@
 
 - Inclui os atributos 30 (Situação financeira) e 32 (UF Ensino Médio) nos anos.
 
-- Ver quantidade de valores de atributos que não se enquadram, pra ver se exclui ou não.
+- Considerei IESes especiais como Públicas Municipais.
+
+- Troquei em Tipo_Escola_EM valores "Maior Parte ..." por "..." .
+
+- Fiz um for para trocar metade dos dados Tipo_Escola_EM == "Metade Pública e metade privada" para "Pública", e outra metade para "Privada".
+
+- Em Testing.ipynb estava contando as ocorrências dos valores que estavam atrapalhando, para ver se dava para excluir ou não.
 
 # Tarefas
 
-- Arrumar posições dos atributos e gerar as tabelas dos anos;
+- Arrumar posições dos atributos e gerar as tabelas dos anos.
 
-- Ver o que aconteceu com Engenharia da Computação no ENADE. (Enquadrando em outra área?) (Um CO_GRUPO engloba CO_CURSOs) (Pode ter ido pra um outro ciclo de ano (de engenharias));
-
-- Tirar Conclusao_ensino_medio -> nu_ano - ensino_medio. (Para poder fazer a média dos valores) (Não tem sentido fazer a média dos anos que os caras fizeram do ensino médio, mas sim do tempo que passou entre o ano que fizeram o ensino médio e o ano em que terminaram a graduação).
-
-- Maior parte ... -> Privada ou Pública. Brasil e Exterior -> Exterior.
+- Arrumar valores de atributos que não condizem com 2011:
+    - Ver: 19, 26, 27, 28, 29, 37, 38.
+    - Luis fez a correspondência baseando-se em 2011.
 
 # Perguntas
-
-- O que fazer com valores não pertencentes ao padronizado ? (Metade pública e metade privada) (Se poucas exclui, se muitas, separa os dados em 2: publica e privada)
-
-- Atributo Derivado "Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social" (Sim ou não): Mesma pergunta que "Política de ação afirmativa ou inclusão social utilizada para ingresso no curso" ? ( Exclui derivado)
- 
-- Ausência de valores em um atributo em um ano é um problema ? (Atributos de 2011 tem bastante valores a menos em atributos, mas iguais também) (**Tem problema**) (Fazer junção de valores, normalizar de acordo com 2011) (Não se aplica é um problema)
- 
-- Valores DJ1 em 2014 (Ver o porque, e dar um número para estes valores (que não existe). Não excluir) (Fazer de tudo para não excluir amostras)
- 
-- Código das IESes especiais: 21103 (FIEP - Privada CFL), 37862, 107988, 150138, 150268, 1286381 (Públicas mas cobram mensalidade)
-
-    - Site: https://emec.mec.gov.br/emec/nova
-
-Novas:
 
 - Atributo 31 tem 3 valores diferentes entre os anos.
 
@@ -36,7 +26,26 @@ Novas:
 
 - Atributos 37 e 38 tem valores não correspondentes entre os anos.
 
+- Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis.
+
 # Anotações
+
+- O que fazer com valores não pertencentes ao padronizado ? 
+    - R: Se poucas exclui, se muitas, separa os dados em dois: publica e privada.
+    
+- Ausência de valores em um atributo em um ano é um problema ? (Atributos de 2011 tem bastante valores a menos em atributos, mas iguais também) 
+    - R: Tem problema. Fazer junção de valores, normalizar de acordo com 2011. "Não se aplica" é um problema.
+ 
+- O que fazer sobre os valores DJ1 em 2014:
+    - R: Ver o porque, e dar um número para estes valores (que não existe). Não excluir. Fazer de tudo para não excluir amostras.
+ 
+- Código das IESes especiais: 21103 (FIEP - Privada CFL), 37862, 107988, 150138, 150268, 1286381 (Site: https://emec.mec.gov.br/emec/nova):
+    - R: São instituições Públicas Municipais que cobram mensalidade.
+    
+- Substituir ANO_FIM_EM por NU_ANO - ANO_FIM_EM:
+    - Para poder fazer a média dos valores. Não tem sentido fazer a média dos anos que os caras fizeram do ensino médio, mas sim do tempo que passou entre o ano que fizeram o ensino médio e o ano em que terminaram a graduação.
+    
+- Ver o que aconteceu com Engenharia da Computação no ENADE. (Enquadrando em outra área?) (Um CO_GRUPO engloba CO_CURSOs) (Pode ter ido pra um outro ciclo de ano (de engenharias)).
 
 - Seria ideal os conjuntos (2008, 2011, 2014, 2017, 2021), (2011, 2014, 2017, 2021), (2014, 2017, 2021). (por agora, inserir os 5 não marcados no dataset atual);
 
