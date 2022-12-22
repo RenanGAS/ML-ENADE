@@ -1,14 +1,8 @@
 # Progresso
 
-- Inclui os atributos 30 (Situação financeira) e 32 (UF Ensino Médio) nos anos.
+- Considerei Renda familiar "Nenhuma" em 2011 como "Até 1,5 SM";
 
-- Considerei IESes especiais como Públicas Municipais.
-
-- Troquei em Tipo_Escola_EM valores "Maior Parte ..." por "..." .
-
-- Fiz um for para trocar metade dos dados Tipo_Escola_EM == "Metade Pública e metade privada" para "Pública", e outra metade para "Privada".
-
-- Em Testing.ipynb estava contando as ocorrências dos valores que estavam atrapalhando, para ver se dava para excluir ou não.
+- Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 em 2011. Falta nos outros anos.
 
 # Tarefas
 
@@ -21,7 +15,7 @@
     
 - Ver como calcular o conceito ENADE.
 
-- Ver como
+- Ver como fazer a segunda etapa de transformações.
 
 # Questões
 

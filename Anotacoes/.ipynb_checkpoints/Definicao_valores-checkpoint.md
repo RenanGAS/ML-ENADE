@@ -430,7 +430,7 @@ Privada);
     * G = Acima de 30 salários mínimos (mais de 21.720,00).
 
 * **2011**:
-    * A = Nenhuma
+    * A = Nenhuma -> Até 1,5 salário mínimo.
     * B = Até 1,5 salário mínimo (até  817,50).
     * C = De 1,5 a 3 salários mínimos (817,51 a 1.635,00).
     * D = De 3 a 4,5 salários mínimos (1.635,01 a 2.452,50).
@@ -664,20 +664,21 @@ Privada);
     * 8 = Não se aplica.
 
 * **2014**:
-    * 1 = Discordo totalmente.
-    * 2 = Discordo.
-    * 3 = Discordo parcialmente.
-    * 4 = Concordo parcialmente.
-    * 5 = Concordo.
-    * 6 = Concordo totalmente.
-    * 7 = Não sei responder.
-    * 8 = Não se aplica.
+    * 1 = Discordo totalmente. -> Nenhuma
+    * 2 = Discordo. -> Nenhuma
+    * 3 = Discordo parcialmente. -> Algumas
+    * 4 = Concordo parcialmente. -> Algumas
+    * 5 = Concordo. -> Maior parte
+    * 6 = Concordo totalmente.-> Todas
+    * 7 = Não sei responder.|-> Não sei responder
+    * 8 = Não se aplica.    |
 
 * **2011**:
-    * A = Sim, todas. -> Concordo totalmente
-    * B = Sim, a maior parte. -> Concordo
-    * C = Somente algumas. -> Concordo parcialmente
-    * D = Nenhuma. -> Discordo totalmente
+    * A = Sim, todas. -> Todas
+    * B = Sim, a maior parte. -> Maior parte
+    * C = Somente algumas. -> Algumas
+    * D = Nenhuma.
+    *   = Não sei responder
 
 27 - <mark>Opinião sobre as condições das salas de aulas práticas</mark>;
 
@@ -702,20 +703,21 @@ Privada);
     * 8 = Não se aplica.
 
 * **2014**:
-    * 1 = Discordo totalmente.
-    * 2 = Discordo.
-    * 3 = Discordo parcialmente.
-    * 4 = Concordo parcialmente.
-    * 5 = Concordo.
-    * 6 = Concordo totalmente.
-    * 7 = Não sei responder.
-    * 8 = Não se aplica.
+    * 1 = Discordo totalmente. -> Nenhuma
+    * 2 = Discordo. -> Nenhuma
+    * 3 = Discordo parcialmente. -> Algumas
+    * 4 = Concordo parcialmente. -> Algumas
+    * 5 = Concordo. -> Maior parte
+    * 6 = Concordo totalmente. -> Todas
+    * 7 = Não sei responder.|-> Não sei responder
+    * 8 = Não se aplica.    |
 
 * **2011**:
-    * A = Sim, todos. -> Concordo totalmente
-    * B = Sim, a maior parte. -> Concordo
-    * C = Somente alguns. -> Concordo parcialmente
-    * D = Nenhuma. -> Discordo totalmente
+    * A = Sim, todas. -> Todas
+    * B = Sim, a maior parte. -> Maior parte
+    * C = Somente algumas. -> Algumas
+    * D = Nenhuma.
+    *   = Não sei responder
 
 28 - <mark>Opinião sobre o plano de ensino do curso</mark>;
 
@@ -740,20 +742,21 @@ Privada);
     * 8 = Não se aplica.
 
 * **2014**:
-    * 1 = Discordo totalmente.
-    * 2 = Discordo.
-    * 3 = Discordo parcialmente.
-    * 4 = Concordo parcialmente.
-    * 5 = Concordo.
-    * 6 = Concordo totalmente.
-    * 7 = Não sei responder.
-    * 8 = Não se aplica.
+    * 1 = Discordo totalmente. -> Não contribui
+    * 2 = Discordo. -> Não contribui
+    * 3 = Discordo parcialmente. -> Muito pouco
+    * 4 = Concordo parcialmente. -> Parcialmente
+    * 5 = Concordo. -> Amplamente
+    * 6 = Concordo totalmente. -> Amplamente
+    * 7 = Não sei responder.|-> Não sei responder
+    * 8 = Não se aplica.    |
 
 * **2011** (34/52): "Você considera que seu curso contribui para a aquisição de formação teórica na área?"
-    * A = Contribui amplamente. -> Concordo totalmente
-    * B = Contribui parcialmente. -> Concordo parcialmente
-    * C = Contribui muito pouco. -> Discordo
-    * D = Não contribui. -> Discordo totalmente
+    * A = Contribui amplamente. -> Amplamente
+    * B = Contribui parcialmente. -> Parcialmente
+    * C = Contribui muito pouco. -> Muito pouco
+    * D = Não contribui. -> Não contribui
+    *   = Não sei responder
 
 29 - <mark>Avaliação pessoal da contribuição do curso para a formação</mark>;
 
@@ -778,21 +781,22 @@ Privada);
     * 8 = Não se aplica.
 
 * **2014**:
-    * 1 = Discordo totalmente.
-    * 2 = Discordo.
-    * 3 = Discordo parcialmente.
-    * 4 = Concordo parcialmente.
-    * 5 = Concordo.
-    * 6 = Concordo totalmente.
-    * 7 = Não sei responder.
-    * 8 = Não se aplica.
+    * 1 = Discordo totalmente. -> Muito fraca
+    * 2 = Discordo. -> Fraca
+    * 3 = Discordo parcialmente. -> Regular
+    * 4 = Concordo parcialmente. -> Regular
+    * 5 = Concordo. -> Boa
+    * 6 = Concordo totalmente. -> Muito boa
+    * 7 = Não sei responder.|-> Não sei responder
+    * 8 = Não se aplica.    |
 
 * **2011**:
-    * A = Muito boa. -> Concordo totalmente
-    * B = Boa. -> Concordo
-    * C = Regular. -> Concordo parcialmente
-    * D = Fraca. -> Discordo
-    * E = Muito fraca. -> Discordo totalmente
+    * A = Muito boa. 
+    * B = Boa. 
+    * C = Regular. 
+    * D = Fraca. 
+    * E = Muito fraca. 
+    *   = Não sei responder.
     
 # Atributos adicionados
     
@@ -917,32 +921,67 @@ Privada);
 
     * 1 = Discordo totalmente. -> Nenhum
     * 2 = Discordo. -> Nenhum
-    * 3 = Discordo parcialmente. -> Somente alguns
-    * 4 = Concordo parcialmente. -> Sim, todos os professores.
-    * 5 = Concordo. -> Sim, a maior parte. 
-    * 6 = Concordo totalmente. -> Sim, todos os professores.
+    * 3 = Discordo parcialmente. -> Alguns
+    * 4 = Concordo parcialmente. -> Alguns
+    * 5 = Concordo. -> Maior parte. 
+    * 6 = Concordo totalmente. -> Todos.
     * 7 = Não sei responder.|
     * 8 = Não se aplica.    | condensar num só
-    
-* Ver quantas linhas
 
 * **2011**:
 
-    * A = Sim, todos os professores.
-    * B  = Sim, a maior parte. 
-    * C = Somente alguns. 
+    * A = Todos.
+    * B = Maior parte. 
+    * C = Alguns. 
     * D = Nenhum.
-    * Usar nulos para naõ responder e não aplica
-
-* Ver quantas linhas
+    *   = Não sei responder
 
 38 - <mark>Os professores demonstraram domínio dos conteúdos abordados nas disciplinas</mark> (QE_I57 (2021), QE_I42 (2011)); 
 
-* Repetir o que fiz pra 37
+* **2021**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2017**:
+
+    * 1 = Discordo totalmente.
+    * 2 = Discordo.
+    * 3 = Discordo parcialmente.
+    * 4 = Concordo parcialmente.
+    * 5 = Concordo.
+    * 6 = Concordo totalmente.
+    * 7 = Não sei responder.
+    * 8 = Não se aplica.
+
+* **2014**:
+
+    * 1 = Discordo totalmente. -> Nenhum
+    * 2 = Discordo. -> Nenhum
+    * 3 = Discordo parcialmente. -> Alguns
+    * 4 = Concordo parcialmente. -> Alguns
+    * 5 = Concordo. -> Maior parte
+    * 6 = Concordo totalmente. -> Todos
+    * 7 = Não sei responder.|-> Não sei responder
+    * 8 = Não se aplica.    |
+
+* **2011**:
+
+    * A = Todos.  
+    * B = Maior parte. 
+    * C = Alguns. 
+    * D = Nenhum.
+    *   = Não sei responder.
 
 Variáveis derivadas das variáveis selecionadas:
 
-1 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social;
+1 - Indicativo dicotômico de utilização de política de ação afirmativa ou inclusão social; (**Atributo excluído**)
 
 * Exemplo:
     * A = Não. -> Não
