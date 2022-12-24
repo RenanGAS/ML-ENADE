@@ -891,7 +891,7 @@ Privada);
     * I = Financiamento oferecido por outra entidade (banco privado, etc).
     * J = Mais de um dos tipos de bolsa ou financiamento citados. (ver se dá pra excluir)
 
-32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011)); # Ver se está no mesmo arquivo de onde o cara fez o EM
+32 - <mark>UF de Conclusão do Ensino Médio</mark> (QE_I16 (2021), QE_I15 (2011));
 
 37 - <mark>Os professores apresentaram disponibilidade para atender os estudantes fora do horário das aulas</mark> (QE_I56 (2021), QE_I41 (2011));
 
