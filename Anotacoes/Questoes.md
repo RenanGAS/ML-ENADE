@@ -2,16 +2,11 @@
 
 - Considerei Renda familiar "Nenhuma" em 2011 como "Até 1,5 SM";
 
-- Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 em 2011. Falta nos outros anos.
+- Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 nos anos. (falta atributo 31 em todos)
 
 # Tarefas
 
 - Arrumar posições dos atributos e gerar as tabelas dos anos.
-
-- Arrumar valores de atributos que não condizem com 2011:
-    - Ver: 19, 26, 27, 28, 29, 37, 38.
-    - Luis fez a correspondência baseando-se em 2011.
-    - Manteu "Não se aplica", que não existe em 2011.
     
 - Ver como calcular o conceito ENADE.
 
