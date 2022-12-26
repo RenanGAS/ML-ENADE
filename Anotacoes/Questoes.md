@@ -2,7 +2,9 @@
 
 - Considerei Renda familiar "Nenhuma" em 2011 como "Até 1,5 SM";
 
-- Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 nos anos. (falta atributo 31 em todos)
+- Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 nos anos;
+
+- Inseri o atributo 31 nos anos. Utilizei QE_I09 de 2011 como referência, tendo apenas as opções "Sim", "Não" e "Não se aplica", indicano se o candidato recebeu ou não bolsa de estudos.
 
 # Tarefas
 

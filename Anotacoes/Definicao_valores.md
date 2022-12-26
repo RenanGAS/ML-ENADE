@@ -865,21 +865,26 @@ Privada);
 
 * **2014**:
 
-    * A = Nenhum, pois meu curso é gratuito.
-    * B = Nenhum, embora meu curso não seja gratuito.
-    * C = ProUni integral.
-    * D = ProUni parcial, apenas.
-    * E = FIES, apenas.
-    * F = ProUni Parcial e FIES.
-    * G = Bolsa oferecida por governo estadual, distrital ou municipal.
-    * H = Bolsa oferecida pela própria instituição.
-    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra).
-    * J = Financiamento oferecido pela própria instituição.
-    * K = Financiamento bancário.
+    * A = Nenhum, pois meu curso é gratuito. -> Não se aplica
+    * B = Nenhum, embora meu curso não seja gratuito. -> Não
+    * C = ProUni integral. -> Sim
+    * D = ProUni parcial, apenas. -> Sim
+    * E = FIES, apenas. -> Sim
+    * F = ProUni Parcial e FIES. -> Sim
+    * G = Bolsa oferecida por governo estadual, distrital ou municipal. -> Sim
+    * H = Bolsa oferecida pela própria instituição. -> Sim
+    * I = Bolsa oferecida por outra entidade (empresa, ONG, outra). -> Sim
+    * J = Financiamento oferecido pela própria instituição. -> Sim
+    * K = Financiamento bancário. -> Sim
 
 * **2011**:
     
-    * Usar QE_I09.
+    * QE_I09.
+    * A = Sim.
+    * B = Não se aplica -  meu curso é gratuito.
+    * C = Não.
+
+    * QE_I10.
     * A = ProUni integral.
     * B = ProUni parcial.
     * C = FIES.
