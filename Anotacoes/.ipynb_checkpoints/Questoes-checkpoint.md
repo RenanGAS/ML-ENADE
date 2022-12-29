@@ -6,6 +6,8 @@
 
 - Inseri o atributo 31 nos anos. Utilizei QE_I09 de 2011 como referência, tendo apenas as opções "Sim", "Não" e "Não se aplica", indicano se o candidato recebeu ou não bolsa de estudos.
 
+- Temos 36 atributos desconsiderando CO_CURSO. (Considerando atributos derivados)
+
 # Tarefas
 
 - Arrumar posições dos atributos e gerar as tabelas dos anos.
