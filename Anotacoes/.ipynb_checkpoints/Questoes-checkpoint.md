@@ -8,21 +8,13 @@
 
 - Temos 36 atributos desconsiderando CO_CURSO. (Considerando atributos derivados)
 
-# Tarefas
+- Troquei valores DJ1 em 2017 por 0.
 
-- Arrumar posições dos atributos e gerar as tabelas dos anos.
-    
-- Ver como calcular o conceito ENADE.
+# Tarefas
 
 - Ver como fazer a segunda etapa de transformações.
 
 # Questões
-
-- Atributo 31 tem 3 valores diferentes entre os anos. (ver último atributo)
-
-- Atributo 32 não está no mesmo arquivo que CO_UF_CURSO.
-
-- Atributos 37 e 38 tem valores não correspondentes entre os anos.
 
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis.
 
