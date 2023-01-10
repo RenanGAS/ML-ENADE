@@ -18,6 +18,8 @@
 
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis.
 
+- Contagem da unidade de federação do ensino médio dos alunos.
+
 # Anotações
 
 - O que fazer com valores não pertencentes ao padronizado ? 
