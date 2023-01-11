@@ -4,7 +4,7 @@
 
 - Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 nos anos;
 
-- Inseri o atributo 31 nos anos. Utilizei QE_I09 de 2011 como referência, tendo apenas as opções "Sim", "Não" e "Não se aplica", indicano se o candidato recebeu ou não bolsa de estudos.
+- Inseri o atributo 31 nos anos. Utilizei QE_I09 de 2011 como referência, tendo apenas as opções "Sim", "Não" e "Não se aplica", indicando se o candidato recebeu ou não bolsa de estudos.
 
 - Temos 36 atributos desconsiderando CO_CURSO. (Considerando atributos derivados)
 
@@ -12,13 +12,32 @@
 
 # Tarefas
 
-- Ver como fazer a segunda etapa de transformações.
+- Ver sobre o cálculo do conceito do ENADE.
+
+- Ver mais atributos (Cursos que tem menos evasão tem nota mais alta: ver tabela do conceito do anadde).
+
+- Contar os nulos.
+
+- Ver árvore de decisão, cross-validation e F1-Score.
+
+- Ver erro em pre-process_merger.
+
+- No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. 
+  Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste.
+  
+- Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
+
+- Ver um jeito de puxar os dados dos anos diretamente do site. Fazer isso pro código ser reproduzível.
 
 # Questões
 
-- Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis.
+- Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior)
 
 - Contagem da unidade de federação do ensino médio dos alunos.
+
+- Média da quantidade de pessoas que moram com o aluno.
+
+- Derivação de 'Ano', 'UF', 'Inicio_Graduacao', 'Conclusao_Ensino_Medio', 'Anos_Preparacao', 'Anos_Graduacao'.
 
 # Anotações
 
