@@ -175,16 +175,15 @@ Federal de Educação, Ciência e Tecnologia (IFECT));
 
 * **2011**: 1971 - 2011
 
-11 - <mark>Tipo de escola que o participante cursou o Ensino Médio</mark> (Pública ou 
-Privada);
+11 - <mark>Tipo_Escola_EM</mark>: Tipo da escola em que o estudante cursou o ensino médio;
 
 * **2021**:
     * A = Pública.
     * B = Privada.
     * C = Exterior.
-    * D = Maior parte pública.
-    * E = Maior parte Privada.
-    * F = Brasil e exterior.
+    * D = Maior parte pública. -> Pública
+    * E = Maior parte Privada. -> Privada
+    * F = Brasil e exterior. -> Exterior
 
 * **2017**:
     * A = Pública.
@@ -205,11 +204,11 @@ Privada);
 * **2011**:
     * A = Pública.
     * B = Privada.
-    * C = Maior parte pública.
-    * D = Maior parte Privada.
-    * E = Metade em escola pública e metade em escola privada.
+    * C = Maior parte pública. -> Pública
+    * D = Maior parte Privada. -> Privada
+    * E = Metade em escola pública e metade em escola privada. -> Dividido as ocorrências deste valor em Pública e Privada
 
-12 - <mark>Modalidade de Ensino Médio</mark>;
+12 - <mark>Modalidade_EM</mark>;
 
 * **2021**:
     * A = Tradicional.
@@ -239,9 +238,9 @@ Privada);
     * D = Supletivo.
     * E = Outra.
 
-13 - <mark>NU_IDADE</mark>: Idade do participante na data de realização do exame;
+13 - <mark>Idade</mark>: Idade do participante na data de realização do exame;
 
-14 - <mark>TP_SEXO</mark>: Sexo do participante;
+14 - <mark>Sexo</mark>: Sexo do participante;
 
 * **2021**:
     * M = Masculino
@@ -263,9 +262,7 @@ Privada);
     * M = Masculino
     * F = Feminino
 
-15 - <mark>Cor ou raça do participante</mark>;
-
-* **OBS**: Ordem não importa. O que importa é as escalas e o conteúdo dos valores estarem condizentes.
+15 - <mark>Cor_Raca</mark>: Cor/Raça do participante;
 
 * **2021**:
     * A = Branca.

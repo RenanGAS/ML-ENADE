@@ -1,15 +1,5 @@
 # Progresso
 
-- Considerei Renda familiar "Nenhuma" em 2011 como "Até 1,5 SM";
-
-- Arrumei os atributos 19, 26, 27, 28, 29, 37 e 38 nos anos;
-
-- Inseri o atributo 31 nos anos. Utilizei QE_I09 de 2011 como referência, tendo apenas as opções "Sim", "Não" e "Não se aplica", indicando se o candidato recebeu ou não bolsa de estudos.
-
-- Temos 36 atributos desconsiderando CO_CURSO. (Considerando atributos derivados)
-
-- Troquei valores DJ1 em 2017 por 0.
-
 # Tarefas
 
 - Ver sobre o cálculo do conceito do ENADE.
@@ -33,11 +23,11 @@
 
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior)
 
-- Contagem da unidade de federação do ensino médio dos alunos.
+- Contagem da unidade de federação do ensino médio dos alunos. (27 atributos para contagem de cada estado neste atributo)
 
-- Média da quantidade de pessoas que moram com o aluno.
+- Média da quantidade de pessoas que moram com o aluno. (Normal)
 
-- Derivação de 'Ano', 'UF', 'Inicio_Graduacao', 'Conclusao_Ensino_Medio', 'Anos_Preparacao', 'Anos_Graduacao'.
+- Derivação de 'Ano', 'UF', 'Inicio_Graduacao', 'Conclusao_Ensino_Medio', 'Anos_Preparacao', 'Anos_Graduacao'. (Normal)
 
 # Anotações
 
