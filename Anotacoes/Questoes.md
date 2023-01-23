@@ -1,16 +1,14 @@
 # Progresso
 
+- Consertei o código que gerava a tabela de contagem.
+
 # Tarefas
 
 - Ver sobre o cálculo do conceito do ENADE.
 
 - Ver mais atributos (Cursos que tem menos evasão tem nota mais alta: ver tabela do conceito do anadde).
 
-- Contar os nulos.
-
 - Ver árvore de decisão, cross-validation e F1-Score.
-
-- Ver erro em pre-process_merger.
 
 - No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. 
   Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste.
