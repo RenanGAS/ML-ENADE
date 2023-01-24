@@ -2,16 +2,13 @@
 
 - Consertei o código que gerava a tabela de contagem.
 
+- Tentei adicionar o atributo "Numero_Evasoes".
+
+- Vi sobre o cálculo do conceito do ENADE.
+
 # Tarefas
 
-- Ver sobre o cálculo do conceito do ENADE.
-
-- Ver mais atributos (Cursos que tem menos evasão tem nota mais alta: ver tabela do conceito do anadde).
-
-- Ver árvore de decisão, cross-validation e F1-Score.
-
-- No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. 
-  Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste.
+- Ver árvore de decisão, cross-validation e F1-Score (No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste).
   
 - Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
 
@@ -20,12 +17,6 @@
 # Questões
 
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior)
-
-- Contagem da unidade de federação do ensino médio dos alunos. (27 atributos para contagem de cada estado neste atributo)
-
-- Média da quantidade de pessoas que moram com o aluno. (Normal)
-
-- Derivação de 'Ano', 'UF', 'Inicio_Graduacao', 'Conclusao_Ensino_Medio', 'Anos_Preparacao', 'Anos_Graduacao'. (Normal)
 
 # Anotações
 
