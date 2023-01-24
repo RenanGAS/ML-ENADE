@@ -1,12 +1,16 @@
 # Progresso
 
-- Consertei o código que gerava a tabela de contagem.
-
-- Tentei adicionar o atributo "Numero_Evasoes".
-
-- Vi sobre o cálculo do conceito do ENADE (Já temos o resultado final para definição do conceito. NT_GER é a média ponderada de NT_FG e NT_CE).
-
 # Tarefas
+
+- Colocar numero de inscritos e participantes e ver se bate com a tabela.
+
+- Ver erro edicao_conceito_enade. Tabela pode estar com linhas inválidas. (Ver relação dessa tabela e seus números de participantes, com a tabela "testeTransformação".
+
+- Ver resultado das médias NT_GER. (Talvez nem usa NT_GER, usa FG e CE).
+
+- Tem número de participantes == 0 na tabela "Numero_Faltantes" (Ver para tirar).
+
+- Trocar "Numero_Evasoes" por "Numero_Faltantes".
 
 - Ver árvore de decisão, cross-validation e F1-Score (No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste).
   
