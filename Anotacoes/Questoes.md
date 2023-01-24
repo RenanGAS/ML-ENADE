@@ -4,7 +4,7 @@
 
 - Tentei adicionar o atributo "Numero_Evasoes".
 
-- Vi sobre o cálculo do conceito do ENADE.
+- Vi sobre o cálculo do conceito do ENADE (Já temos o resultado final para definição do conceito. NT_GER é a média ponderada de NT_FG e NT_CE).
 
 # Tarefas
 
@@ -16,7 +16,7 @@
 
 # Questões
 
-- Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior)
+- Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
 
 # Anotações
 
