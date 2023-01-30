@@ -1,6 +1,10 @@
 # Progresso
 
+- Generalizei arquivos de códigos.
+
 # Tarefas
+
+- adicionar n notas invalidas, conceito do curso calculado (verifcar se bate), n faltantes, n participantes.
 
 - Colocar numero de inscritos e participantes e ver se bate com a tabela.
 
@@ -9,8 +13,6 @@
 - Ver resultado das médias NT_GER. (Talvez nem usa NT_GER, usa FG e CE).
 
 - Tem número de participantes == 0 na tabela "Numero_Faltantes" (Ver para tirar).
-
-- Trocar "Numero_Evasoes" por "Numero_Faltantes".
 
 - Ver árvore de decisão, cross-validation e F1-Score (No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste).
   
