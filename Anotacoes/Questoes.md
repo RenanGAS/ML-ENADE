@@ -6,8 +6,6 @@
 
 - adicionar n notas invalidas, conceito do curso calculado (verifcar se bate), n faltantes, n participantes.
 
-- Colocar numero de inscritos e participantes e ver se bate com a tabela.
-
 - Ver erro edicao_conceito_enade. Tabela pode estar com linhas inválidas. (Ver relação dessa tabela e seus números de participantes, com a tabela "testeTransformação".
 
 - Ver resultado das médias NT_GER. (Talvez nem usa NT_GER, usa FG e CE).
@@ -20,54 +18,20 @@
 
 - Ver um jeito de puxar os dados dos anos diretamente do site. Fazer isso pro código ser reproduzível.
 
-# Questões
-
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
+
+# Questões
 
 # Anotações
 
-- O que fazer com valores não pertencentes ao padronizado ? 
-    - R: Se poucas exclui, se muitas, separa os dados em dois: publica e privada.
+- Para o cáculo do conceito enade utiliza-se as seguintes informações de um curso:
+
+    - Número de participantes com notas válidas;
+    - Notas FG e CE de tais participantes.
     
-- Ausência de valores em um atributo em um ano é um problema ? (Atributos de 2011 tem bastante valores a menos em atributos, mas iguais também) 
-    - R: Tem problema. Fazer junção de valores, normalizar de acordo com 2011. "Não se aplica" é um problema.
- 
-- O que fazer sobre os valores DJ1 em 2014:
-    - R: Ver o porque, e dar um número para estes valores (que não existe). Não excluir. Fazer de tudo para não excluir amostras.
- 
-- Código das IESes especiais: 21103 (FIEP - Privada CFL), 37862, 107988, 150138, 150268, 1286381 (Site: https://emec.mec.gov.br/emec/nova):
-    - R: São instituições Públicas Municipais que cobram mensalidade.
-    
-- Substituir ANO_FIM_EM por NU_ANO - ANO_FIM_EM:
-    - Para poder fazer a média dos valores. Não tem sentido fazer a média dos anos que os caras fizeram do ensino médio, mas sim do tempo que passou entre o ano que fizeram o ensino médio e o ano em que terminaram a graduação.
-    
-- Ver o que aconteceu com Engenharia da Computação no ENADE. (Enquadrando em outra área?) (Um CO_GRUPO engloba CO_CURSOs) (Pode ter ido pra um outro ciclo de ano (de engenharias)).
+- Para que um curso tenha seu conceito calculado, é necessário que tenha pelo menos 2 participantes com notas válidas.
 
-- Seria ideal os conjuntos (2008, 2011, 2014, 2017, 2021), (2011, 2014, 2017, 2021), (2014, 2017, 2021). (por agora, inserir os 5 não marcados no dataset atual);
-
-- Para todos atributos numéricos vamos fazer a média.
-
-- Vamos fazer um contador para cada atributo não numérico, fazendo várias colunas para cada valor de atributo.
-
-- Vamos de acordo com os atributos, classificar uma nota 1 ~ 5 do enade.
-
-- **Ver como calcula a nota enade com base na nota geral**.
-     
-- Em 2021:
-    - Arquivo 4: NU_ANO, CO_CURSO, QE_I27 ~ QE_I68;
-    - Arquivo 42: NU_ANO, CO_CURSO, QE_I78, QE_I79, QE_I80 e QE_I81;
-    - Arquivo 43: NU_ANO, CO_CURSO, QE_I82, QE_I83, QE_I84, QE_I85, QE_I86, QE_I87, QE_I88, QE_I89, QE_I90, QE_I91, QE_I92.
-
-- Em 2017:
-    - Arquivo 4: NU_ANO, CO_CURSO, QE_I27 ~ QE_I68;
-    - Arquivo 42: NU_ANO, CO_CURSO, QE_I78, QE_I79, QE_I80 e QE_I81.
-    
-- Em 2014:
-    - Arquivo 4: NU_ANO, CO_CURSO, QE_I27 ~ QE_I68;
-    - Arquivo 42: NU_ANO, CO_CURSO, QE_I78, QE_I79, QE_I80 e QE_I81.
-    
-- Em 2011:
-    - Arquivo 4: NU_ANO, CO_CURSO, QE_I22 ~ QE_I54;
+- Considera-se para o cálculo do conceito, apenas as notas em que TP_PRES == 555.
  
  - Sobre os novos atributos:
  
