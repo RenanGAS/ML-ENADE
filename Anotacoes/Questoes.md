@@ -4,6 +4,8 @@
 
 # Tarefas
 
+- Trocar "Curso" para "Área".
+
 - adicionar n notas invalidas, conceito do curso calculado (verifcar se bate), n faltantes, n participantes.
 
 - Ver erro edicao_conceito_enade. Tabela pode estar com linhas inválidas. (Ver relação dessa tabela e seus números de participantes, com a tabela "testeTransformação".
