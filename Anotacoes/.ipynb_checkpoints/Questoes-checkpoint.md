@@ -1,16 +1,12 @@
 # Progresso
 
-- Generalizei arquivos de códigos.
+- adicionar n notas invalidas, conceito do curso calculado (verifcar se bate), n faltantes, n participantes.
+
+- Ver um jeito de puxar os dados dos anos diretamente do site. Fazer isso pro código ser reproduzível.
 
 # Tarefas
 
 - Trocar "Curso" para "Área".
-
-- adicionar n notas invalidas, conceito do curso calculado (verifcar se bate), n faltantes, n participantes.
-
-- Ver erro edicao_conceito_enade. Tabela pode estar com linhas inválidas. (Ver relação dessa tabela e seus números de participantes, com a tabela "testeTransformação".
-
-- Ver resultado das médias NT_GER. (Talvez nem usa NT_GER, usa FG e CE).
 
 - Tem número de participantes == 0 na tabela "Numero_Faltantes" (Ver para tirar).
 
@@ -18,13 +14,13 @@
   
 - Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
 
-- Ver um jeito de puxar os dados dos anos diretamente do site. Fazer isso pro código ser reproduzível.
-
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
 
 # Questões
 
 # Anotações
+
+- Inscritos - Participantes == Numero_Faltantes + Numero_Notas_Invalidas
 
 - Para o cáculo do conceito enade utiliza-se as seguintes informações de um curso:
 
