@@ -1,14 +1,14 @@
 # Progresso
 
-- adicionar n notas invalidas, conceito do curso calculado (verifcar se bate), n faltantes, n participantes.
+- Adicionei os atributos Numero_Notas_Invalidas, Numero_Faltantes, Numero_Participantes.
 
-- Ver um jeito de puxar os dados dos anos diretamente do site. Fazer isso pro código ser reproduzível.
+- Tentei fazer o cálculo do conceito.
+
+- Ajustei o código para puxar os microdados direto do site.
 
 # Tarefas
 
 - Trocar "Curso" para "Área".
-
-- Tem número de participantes == 0 na tabela "Numero_Faltantes" (Ver para tirar).
 
 - Ver árvore de decisão, cross-validation e F1-Score (No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste).
   
@@ -17,6 +17,8 @@
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
 
 # Questões
+
+- Vou ter que excluir os cursos com participantes == 0 em pre-process para poder calcular o conceito.
 
 # Anotações
 
