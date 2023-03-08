@@ -1,10 +1,10 @@
 # Progresso
 
-- Adicionei os atributos Numero_Notas_Invalidas, Numero_Faltantes, Numero_Participantes.
+- Fiz o cálculo do conceito do ENADE.
 
-- Tentei fazer o cálculo do conceito.
+- Arrumei a tabela final.
 
-- Ajustei o código para puxar os microdados direto do site.
+- Descobri o porquê da diferença de linhas.
 
 # Tarefas
 
@@ -17,8 +17,6 @@
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
 
 # Questões
-
-- Vou ter que excluir os cursos com participantes == 0 em pre-process para poder calcular o conceito.
 
 # Anotações
 
