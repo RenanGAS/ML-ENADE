@@ -1,16 +1,10 @@
 # Progresso
 
-- Fiz o cálculo do conceito do ENADE.
-
-- Arrumei a tabela final.
-
-- Descobri o porquê da diferença de linhas.
-
-# Tarefas
+- Fazer OneHotEncoding nos atributos "simbólicos" do curso.
 
 - Tirar Codigo_do_Curso e Ano.
 
-- Fazer OneHotEncoding nos atributos "simbólicos" do curso.
+# Tarefas
 
 - Trocar "Curso" para "Área".
 
