@@ -4,6 +4,8 @@
 
 - Tirar Codigo_do_Curso e Ano.
 
+- Ver árvore de decisão e cross-validation.
+
 # Tarefas
 
 - Trocar "Curso" para "Área".
