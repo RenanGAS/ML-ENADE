@@ -14,6 +14,8 @@
 
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
 
+- Ver Matriz de Confusão.
+
 # Questões
 
 # Anotações
