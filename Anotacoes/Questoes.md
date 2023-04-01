@@ -2,25 +2,15 @@
 
 # Tarefas
 
-- Ver porcentagem de dados para cada classe e se está sendo respeitada no split inicial e no HalvingGridSearch.
-
 - Ver K-NN.
-
-- Ver artigo baixado.
 
 - Trocar "Curso" para "Área".
 
 - Ver árvore de decisão, cross-validation (80-20, 5 folds, media dos folds(F1-Score)), F1-Score (No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe e acurácia. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste).
-
-- Distribuição das notas do conceito.
-
-- Ver matplotlib.
   
 - Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
 
 - Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
-
-- Ver Matriz de Confusão.
 
 # Questões
 
