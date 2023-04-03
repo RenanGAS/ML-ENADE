@@ -3,8 +3,6 @@
 # Tarefas
 
 - Trocar "Curso" para "Área".
-
-- Ver árvore de decisão, cross-validation (80-20, 5 folds, media dos folds(F1-Score)), F1-Score (No F1-Score temos a questão de pegar 70% treino e 30% teste de amostras de cada classe e acurácia. Se temos 100 linhas de conceito 5, pegamos 70 para treino e 30 para teste. Se temos 1000 linhhas de conceito 4, pegamos 700 para treino e 300 para teste).
   
 - Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
 
