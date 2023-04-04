@@ -2,6 +2,10 @@
 
 # Tarefas
 
+- Selecionar um subconjunto de atributos para treinar e testar no K-NN, devido ao problema da dimensionalidade.
+
+- Ver explicação da página 66 e em diante de novo.
+
 - Trocar "Curso" para "Área".
   
 - Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
