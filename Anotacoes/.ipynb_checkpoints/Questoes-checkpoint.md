@@ -2,7 +2,13 @@
 
 # Tarefas
 
-- Selecionar um subconjunto de atributos para treinar e testar no K-NN, devido ao problema da dimensionalidade.
+- Ver SVM.
+
+- Contar nulos pros Estados.
+
+- Verificar se luiz colocou todo o dataset no GridSearch.
+
+- Selecionar um subconjunto de atributos para treinar e testar no K-NN, devido ao problema da dimensionalidade (PCA).
 
 - Ver explicação da página 66 e em diante de novo.
 
