@@ -2,7 +2,11 @@
 
 # Tarefas
 
-- Ver SVM.
+- Terminar com os classificadores e depois montar ~10 slides para apresentar o projeto pro diego.
+
+- Explicar o dataset do inicio.
+
+- Ver o Top-K, Z-Score.
 
 - Contar nulos pros Estados.
 
