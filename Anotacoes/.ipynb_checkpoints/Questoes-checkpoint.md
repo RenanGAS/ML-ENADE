@@ -2,13 +2,13 @@
 
 - Contar nulos pros Estados.
 
+- Ver o Top-K e Z-Score.
+
 # Tarefas
 
 - Terminar com os classificadores e depois montar ~10 slides para apresentar o projeto pro diego.
 
 - Explicar o dataset do inicio.
-
-- Ver o Top-K, Z-Score.
 
 - Verificar se luiz colocou todo o dataset no GridSearch.
 
