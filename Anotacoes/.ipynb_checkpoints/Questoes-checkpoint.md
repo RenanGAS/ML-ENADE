@@ -6,6 +6,18 @@
 
 # Tarefas
 
+- Explicar diff do luiz pro daqui.
+
+- Escrever sobre os modelos.
+
+- Ver Naive Bayes.
+
+- Consertar a normalização (para alguns atributos (quantificáveis) não todos) (é padrão).
+
+- Explicar transformação com exemplos (contagem de valores).
+
+- Ver qtde de cursos, distribuição das classes (qtde) em cada ano (Fazer uma tabela).
+
 - Terminar com os classificadores e depois montar ~10 slides para apresentar o projeto pro diego.
 
 - Explicar o dataset do inicio.
