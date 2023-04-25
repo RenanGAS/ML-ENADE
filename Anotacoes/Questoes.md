@@ -34,6 +34,8 @@
 
 # Questões
 
+- Para dados que seguem a distribuição normal, usamos o Z-Score. Para dados que não, usamos o min-max.
+
 # Anotações
 
 - Inscritos - Participantes == Numero_Faltantes + Numero_Notas_Invalidas
