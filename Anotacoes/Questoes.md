@@ -1,10 +1,13 @@
 # Progresso
 
-- Contar nulos pros Estados.
-
-- Ver o Top-K e Z-Score.
 
 # Tarefas
+
+- Fazer experimento do Concept Drift.
+
+- Colocar desvios padrões dos atributos.
+
+- Consertar OneHotEncoding.
 
 - Explicar diff do luiz pro daqui.
 
@@ -13,14 +16,6 @@
 - Ver Naive Bayes.
 
 - Consertar a normalização (para alguns atributos (quantificáveis) não todos) (é padrão).
-
-- Explicar transformação com exemplos (contagem de valores).
-
-- Ver qtde de cursos, distribuição das classes (qtde) em cada ano (Fazer uma tabela).
-
-- Terminar com os classificadores e depois montar ~10 slides para apresentar o projeto pro diego.
-
-- Explicar o dataset do inicio.
 
 - Verificar se luiz colocou todo o dataset no GridSearch.
 
