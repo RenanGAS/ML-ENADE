@@ -22,11 +22,21 @@
     
 ### **Métodos de Detecção**
 
-O que é
+Para detecção de Drift existem dois tipos de métodos: que usam medidas estatísticas (Detection by Univariate Measure) e que usam classificadores (Detection by Domain Classifier).
 
-#### **Exemplos**
+#### **Univariate Measure**
 
-Funcionamento
+Se baseiam em alguma medida que avalia a diferença entre duas distribuições de dados.
+
+**Kolmogorov–Smirnov test:**
+
+- One-sample K-S test: verifica se um conjunto de dados pertence a uma determinada distribuição (Connhecida).
+
+- Two-sample K-S test: verifica se dois conjuntos de dados pertence a uma mesma distribuição (Desconhecida).
+
+#### **Domain Classifier**
+
+Utilizam um algoritmo de aprendizado de máquina para predição do conjunto a qual uma instância pertence (treinamento ou teste).
 
 ### **Métodos de Adaptação**
 
