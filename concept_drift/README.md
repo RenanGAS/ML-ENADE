@@ -19,7 +19,7 @@
 - Quando o padrão aprendido pelo modelo não é mais válido
 - Quando P_T1(Y|X) != P_T2(Y|X)
     - "Quando a probabilidade de classificar uma instância como Y, dado um conjunto de características X, num momento T1, é diferente da probabilidade de classificar uma instância como Y, dado o mesmo conjunto de características X, num momento posterior T2"
-- Pensando na relação idade x renda, se observado um conjunto de pessoas mais jovens (15~40 anos), a relação é direta: quanto mais velho, maior a renda. No entanto, se observado um conjunto de pessoas mais velhas (30~80 anos), a relação muda: quanto mais velho, menor a renda (por questões de aposentadoria)
+- Pensando na relação idade x renda, se observado um conjunto de pessoas mais jovens (15\~40 anos), a relação é direta: quanto mais velho, maior a renda. No entanto, se observado um conjunto de pessoas mais velhas (30\~80 anos), a relação muda: quanto mais velho, menor a renda (por questões de aposentadoria)
     
 ### **Métodos de Detecção**
 
@@ -27,13 +27,11 @@ Para **detecção de Drift** existem dois tipos de métodos: que **avaliam uma �
 
 ### **1. Univariate Drift**
 
-Se baseiam em alguma **função** para avaliar da **diferença entre duas distribuições de uma variável** (isoladamente das outras variáveis do conjunto). Imagina-se que a distribuição de alguma variável posssa mudar devido a algum fator externo. Para distribuições de **valores numéricos contínuos** tem-se as medidas: **Kolmogorov–Smirnov test** e **Wasserstein metric**, e para distribuições de **valores discretos ou categóricos**: **Cramer’s V** e **Population Stability Index (PSI)**.
+Se baseiam em alguma **função** para avaliar a **diferença entre duas distribuições de uma variável** (isoladamente das outras variáveis do conjunto). Imagina-se que a distribuição de alguma variável posssa mudar devido a algum fator externo. Para distribuições de **valores numéricos contínuos** tem-se as medidas: **Kolmogorov–Smirnov test** e **Wasserstein metric**, e para distribuições de **valores discretos ou categóricos**: **Cramer’s V** e **Population Stability Index (PSI)**.
 
 #### **1.1 Kolmogorov–Smirnov test (K-S test):**
 
-- One-sample K-S test: verifica se um conjunto de dados pertence a uma determinada distribuição (Connhecida).
-
-- Two-sample K-S test: verifica se dois conjuntos de dados pertence a uma mesma distribuição (Desconhecida).
+K-S test é um teste não paramétrico da igualdade de distribuições probabilísticas. Dessa forma, pode ser usado para verificar se uma amostra pertence ou não a uma distribuição de referência (One-sample K-S test), ou se duas amostras vieram de uma mesma distribuição (Two-sample K-S test). Sobre o segundo caso, é dito que o método é sensível a diferenças na localização e forma das distribuições.
 
 #### **1.2 Wasserstein metric (Earth Movers Distance):**
 
@@ -49,7 +47,7 @@ Utilizam um **algoritmo de aprendizado de máquina** para predição do conjunto
 
 Seleciona as variáveis que apresentam uma maior variância, descartando as outras do conjunto. Tem como objetivo diminuir a dimensionalidade do conjunto para dois propósitos: tornar o pipeline de processamento dos dados mais rápido e melhorar o desempenho de modelos com o filtro das variáveis menos impactantes no conjunto.
 
-Utilizando o PCA, a biblioteca NannyML fez um método para detecção de Multivariate Drift. Baseia-se em construir um modelo PCA com um conjunto de dados, e detectar a presença de drift num conjunto em produção, compactando e descompactando-o com este modelo, definindo a ocorrência de drift se o erro de reconstrução do conjunto na descompactação é alto. "Compactação" se refere ao processo de diminuição de dimensionalidade, e "Descompactação" à possibilidade de reversão do processo, reconstruindo o conjunto a partir do conjunto compactado. Disto, imagina-se que se o conjunto em produção apresenta drift, o modelo PCA que observou as variáveis do conjunto de treinamento não fará uma boa compressão do conjunto em produção. Assim, no processo de reconstrução não terá um bom desempenho, apresentando um erro maior que o esperado.  
+Utilizando o PCA, a biblioteca NannyML fez um método para detecção de Multivariate Drift. Baseia-se em construir um modelo PCA com um conjunto de dados, e detectar a presença de drift num conjunto em produção, compactando e descompactando-o com este modelo, definindo a ocorrência de drift se o erro de reconstrução do conjunto na descompactação é alto. "Compactação" se refere ao processo de diminuição de dimensionalidade, e "Descompactação" à possibilidade de reversão do processo, reconstruindo o conjunto a partir do conjunto compactado. Disto, imagina-se que se o conjunto em produção apresenta drift, o modelo PCA que observou as variáveis do conjunto de treinamento não fará uma boa compressão do conjunto em produção. Assim, no processo de reconstrução não terá um bom desempenho, apresentando um erro maior que o esperado.
 
 **Ideias:**
 
