@@ -31,9 +31,11 @@ Se baseiam em alguma **função** para avaliar a **diferença entre duas distrib
 
 #### **1.1 Kolmogorov–Smirnov test (K-S test):**
 
-K-S test é um teste não paramétrico da igualdade de distribuições probabilísticas. Dessa forma, pode ser usado para verificar se uma amostra pertence ou não a uma distribuição de referência (One-sample K-S test), ou se duas amostras vieram de uma mesma distribuição (Two-sample K-S test). Sobre o segundo caso, é dito que o método é sensível a diferenças na localização e forma das distribuições.
+K-S test é um teste não paramétrico da igualdade de distribuições probabilísticas. Dessa forma, pode ser usado para verificar se uma amostra pertence ou não a uma distribuição de referência (One-sample K-S test), ou se duas amostras vieram de uma mesma distribuição (Two-sample K-S test). Sobre o segundo caso, é dito que o método é sensível a diferenças na localização e forma das distribuições. O cálculo se baseia na obtenção e comparação das funções de distribuição acumulativa das amostras, com o intuito de identificar a maior distância entre dois pontos paralelos dessas funções. Determina-se que duas amostras vêm de uma mesma distribuição se esta distância é menor ou igual a um determinado limite. 
 
-#### **1.2 Wasserstein metric (Earth Movers Distance):**
+#### **1.2 Wasserstein metric (Earth Mover's Distance):**
+
+A métrica de Wasserstein calcula a distância de duas distribuições através da quantificação da transformação de uma distribuição para outra. A medida também é chamada de Earth Mover's Distance pela seguinte analogia: considerando um montinho de terra formado por cinco torres, cada uma com 1, 3, 4, 2 e 1 pedaços de terra, respectivamente, a dois metros de um buraco formado por cinco covas, cada uma com espaço para 2, 0, 4, 2 e 2 pedaços de terra, respectivamente, a métrica de Wasserstein calcula o custo mínimo para o transporte dos pedaços de terra do montinho para o buraco. No cálculo, considera-se como função de custo a quantidade de pedaços de terra da torre i que podem ser movidos para cova j, vezes a distância da torre i para cova j, dada por j - i.
 
 #### **1.3 Cramer’s V:**
 
