@@ -37,10 +37,6 @@ K-S test é um teste não paramétrico da igualdade de distribuições probabil�
 
 A métrica de Wasserstein calcula a distância de duas distribuições através da quantificação da transformação de uma distribuição para outra. A medida também é chamada de Earth Mover's Distance pela seguinte analogia: considerando um montinho de terra formado por cinco torres, cada uma com 1, 3, 4, 2 e 1 pedaços de terra, respectivamente, a dois metros de um buraco formado por cinco covas, cada uma com espaço para 2, 0, 4, 2 e 2 pedaços de terra, respectivamente, a métrica de Wasserstein calcula o custo mínimo para o transporte dos pedaços de terra do montinho para o buraco. No cálculo, considera-se como função de custo a quantidade de pedaços de terra da torre i que podem ser movidos para cova j, vezes a distância da torre i para cova j, dada por j - i.
 
-#### **1.3 Cramer’s V:**
-
-#### **1.4 Population Stability Index (PSI):**
-
 ### **2. Multivariate Drift**
 
 Utilizam um **algoritmo de aprendizado de máquina** para predição do conjunto a qual uma instância pertence (treinamento ou teste). Define-se que há Drift se o algoritmo apresenta um bom desempenho, ou seja, se o modelo diferencia os dois conjuntos. Nisto, ganha-se a capacidade de avaliar a **mudança de distribuição conjunta de duas ou mais variáveis** (não apenas de uma variável isolada). Imagina-se que a distribuição conjunta de duas ou mais variáveis (a visualização de seus pontos num plano) posssa mudar devido a algum fator externo.
