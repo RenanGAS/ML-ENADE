@@ -46,21 +46,3 @@ Utilizam um **algoritmo de aprendizado de máquina** para predição do conjunto
 Seleciona as variáveis que apresentam uma maior variância, descartando as outras do conjunto. Tem como objetivo diminuir a dimensionalidade do conjunto para dois propósitos: tornar o pipeline de processamento dos dados mais rápido e melhorar o desempenho de modelos com o filtro das variáveis menos impactantes no conjunto.
 
 Utilizando o PCA, a biblioteca NannyML fez um método para detecção de Multivariate Drift. Baseia-se em construir um modelo PCA com um conjunto de dados, e detectar a presença de drift num conjunto em produção, compactando e descompactando-o com este modelo, definindo a ocorrência de drift se o erro de reconstrução do conjunto na descompactação é alto. "Compactação" se refere ao processo de diminuição de dimensionalidade, e "Descompactação" à possibilidade de reversão do processo, reconstruindo o conjunto a partir do conjunto compactado. Disto, imagina-se que se o conjunto em produção apresenta drift, o modelo PCA que observou as variáveis do conjunto de treinamento não fará uma boa compressão do conjunto em produção. Assim, no processo de reconstrução não terá um bom desempenho, apresentando um erro maior que o esperado.
-
-**Ideias:**
-
-- Fazer PCA para três variáveis e plotar um gráfico disso pra ver como fica pras edições
-
-### **Métodos de Adaptação**
-
-O que é
-
-#### **Exemplos**
-
-Funcionamento
-
-### **Aplicação nos microdados do Enade**
-
-Métodos testados + Código feito + Resultados
-
-### **Referências**
