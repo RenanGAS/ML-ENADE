@@ -1,7 +1,5 @@
 # ML-ENADE
 
-Este repositório contém os códigos feitos para o projeto de iniciação científica **Predição do Conceito Enade dos Cursos de Computação no Brasil**, cujo artigo foi aceito para publicação no **Simpósio Brasileiro de Informática na Educação** (SBIE 2023), disponível em: https://sol.sbc.org.br/index.php/sbie/article/view/26756.
-
 O projeto consiste na predição do Conceito Enade dos cursos de computação no Brasil através de **modelos de aprendizado supervisionado**, utilizando as **características socioeconômicas** dos cursos, extraídas de um questionário socioeconômico preenchido pelos estudantes antes da realização do exame do Enade. No artigo são descritas duas etapas principais do trabalho: **Pré-processamento** e **Avaliação**.
 
 ## Pré-processamento
