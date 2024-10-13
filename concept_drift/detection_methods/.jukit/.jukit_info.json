@@ -1,0 +1,1 @@
+{"cmd": "\nenade_treino = pd.read_csv(\"./concept_drift/tabela_final_2017_treinamento.csv\")\nprint(enade_treino[\"Nenhum\"].mean())\nprint(len(enade_treino[\"Nenhum\"]))\n", "cmd_opts": " --cell_id=SU2OlbqkmP -s", "import_complete": 1, "terminal": "kitty"}

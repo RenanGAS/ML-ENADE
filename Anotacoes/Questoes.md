@@ -3,35 +3,17 @@
 
 # Tarefas
 
-- Fazer experimento do Concept Drift.
+- Conseguir calcular o CE direito
 
-- Colocar desvios padrões dos atributos.
-
-- Consertar OneHotEncoding.
-
-- Explicar diff do luiz pro daqui.
-
-- Escrever sobre os modelos.
-
-- Ver Naive Bayes.
-
-- Consertar a normalização (para alguns atributos (quantificáveis) não todos) (é padrão).
-
-- Verificar se luiz colocou todo o dataset no GridSearch.
-
-- Ver PCA.
-
-- Trocar "Curso" para "Área".
-  
-- Fazer bons comentários (baixo nível) por todo os códigos. Fazer também um README explicando o que fiz no código (alto nível) e como rodá-lo.
-
-- Em Tipo_Escola_EM, valores "Exterior" foram removidos no código do Luis. (Não excluir, juntar exterior e brasil exterior) (Conferir)
+- Fazer conjunto separado para 2021, 2017 e 2014
 
 # Questões
 
-- Para dados que seguem a distribuição normal, usamos o Z-Score. Para dados que não, usamos o min-max.
-
 # Anotações
+
+
+
+# Anotações antigas
 
 - Inscritos - Participantes == Numero_Faltantes + Numero_Notas_Invalidas
 

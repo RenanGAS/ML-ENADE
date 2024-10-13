@@ -1,0 +1,1 @@
+{"cmd": "\nimport numpy as np\nimport pandas as pd\n\nfrom deepchecks.tabular import Dataset\nfrom deepchecks.tabular.checks import LabelDrift\n", "cmd_opts": " --cell_id=A6CyRjfKq8 -s", "import_complete": 1, "terminal": "kitty"}
